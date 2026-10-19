@@ -1,0 +1,23 @@
+SELECT
+   DRF21.DocEntry AS 'Internal Number', 
+   DRF21.ObjectType AS 'Object Type', 
+   DRF21.LogInstanc AS 'Log Instance', 
+   DRF21.RefType AS 'Reference Types', 
+   DRF21.LineNum AS 'Line Number', 
+   DRF21.RefDocEntr AS 'Referenced Internal Number', 
+   DRF21.RefDocNum AS 'Referenced Document Number', 
+   DRF21.ExtDocNum AS 'External Referenced Document Number', 
+   DRF21.RefObjType AS 'Referenced Object Type', 
+   DRF21.AccessKey AS 'Access Key', 
+   DRF21.IssueDate AS 'Date of Issue', 
+   DRF21.IssuerCNPJ AS 'Issuer CNPJ', 
+   DRF21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   DRF21.Model AS 'Fiscal Document Model', 
+   DRF21.Series AS 'Fiscal Document Series', 
+   DRF21.Number AS 'Fiscal Document Number', 
+   DRF21.RefAccKey AS 'Referenced CT-e Access Key', 
+   DRF21.RefAmount AS 'Referenced Amount', 
+   DRF21.SubSeries AS 'Fiscal Document Subseries', 
+   DRF21.Remark AS 'Remarks', 
+   DRF21.LinkRefTyp AS 'Link Reference Type'
+FROM DRF21 AS DRF21

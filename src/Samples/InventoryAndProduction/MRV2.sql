@@ -1,0 +1,23 @@
+SELECT
+   MRV2.DocEntry AS 'Document Internal ID', 
+   MRV2.BaseLine AS 'Base Row Number', 
+   MRV2.LineNum AS 'Row Number', 
+   MRV2.Quantity AS 'Quantity', 
+   MRV2.Price AS 'Price', 
+   MRV2.LineTotal AS 'Row Total', 
+   MRV2.RToStock AS 'Reval. Amount Posted to Stock', 
+   MRV2.RActPrice AS 'Inventory Reval. Current Cost', 
+   MRV2.INMTransNm AS 'INM Transaction Number', 
+   MRV2.INMInst AS 'INM Instance', 
+   MRV2.INMTransTy AS 'INM Transaction Type', 
+   MRV2.INMCreatBy AS 'INM Document Key Created', 
+   MRV2.INMBaseRef AS 'INM Base Reference', 
+   MRV2.INMDocDate AS 'INM Posting Date', 
+   MRV2.INMOpenQty AS 'INM Open Quantity', 
+   MRV2.ObjType AS 'Object Type', 
+   MRV2.LogInstanc AS 'Log Instance', 
+   MRV2.IVLTransSe AS 'IVL Transaction Sequence No.', 
+   MRV2.IVLLayerID AS 'IVL Layer ID', 
+   MRV2.INMLineNum AS 'INM Row Number in Document', 
+   MRV2.INMSubLine AS 'INM Subrow Number'
+FROM MRV2 AS MRV2

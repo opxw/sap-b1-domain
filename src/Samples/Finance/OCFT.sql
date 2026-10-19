@@ -1,0 +1,22 @@
+SELECT
+   OCFT.CFTId AS 'Cash Flow Transaction ID', 
+   OCFT.CFWId AS 'Cash Flow Line Item ID', 
+   OCFT.Debit AS 'Debit Amount', 
+   OCFT.Credit AS 'Credit Amount', 
+   OCFT.SysCredit AS 'System Credit Amount', 
+   OCFT.SysDebit AS 'System Debit Amount', 
+   OCFT.FCDebit AS 'FC Debit Amount', 
+   OCFT.FCCredit AS 'FC Credit Amount', 
+   OCFT.FCCurrency AS 'Foreign Currency', 
+   OCFT.Account AS 'Account Code', 
+   OCFT.BatchNum AS 'Batch No.', 
+   OCFT.JDTId AS 'Journal Entry ID', 
+   OCFT.JDTLineId AS 'Journal Entry Line ID', 
+   OCFT.TransType AS 'Source Object', 
+   OCFT.BaseRef AS 'Base Reference', 
+   OCFT.PaymentMen AS 'Payment Means', 
+   OCFT.PaymentRef AS 'Payment Reference', 
+   OCFT.PostDate AS 'Posting Date', 
+   OCFT.ValueDate AS 'Value Date', 
+   OCFT.Status AS 'Status'
+FROM OCFT AS OCFT

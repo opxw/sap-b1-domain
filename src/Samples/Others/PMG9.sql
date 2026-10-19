@@ -1,0 +1,21 @@
+SELECT
+   PMG9.AbsEntry AS 'Internal Key', 
+   PMG9.LineID AS 'Row No.', 
+   PMG9.BWRefID AS 'Billing Wizard Reference ID', 
+   PMG9.TargetType AS 'Target Document Type', 
+   PMG9.TargetAbs AS 'Target Document Abs. Entry', 
+   PMG9.TargetNum AS 'Target Document Number', 
+   PMG9.TargetLine AS 'Target Document Line Number', 
+   PMG9.SubProjID AS 'Subproject ID', 
+   PMG9.StageID AS 'Stage ID', 
+   PMG9.SourceType AS 'Source Document Type', 
+   PMG9.SourceAbs AS 'Source Document Abs. Entry', 
+   PMG9.SourceNum AS 'Source Document Number', 
+   PMG9.SourceLine AS 'Source Document Line Number', 
+   PMG9.Charged AS 'Charged', 
+   PMG9.ChargedQty AS 'Charged Quantity', 
+   PMG9.DestType AS 'Destination Table Type', 
+   PMG9.DestArr AS 'Destination Table Array', 
+   PMG9.DestAbs AS 'Destination Table Abs. Entry', 
+   PMG9.DestLine AS 'Destination Table Line Number'
+FROM PMG9 AS PMG9

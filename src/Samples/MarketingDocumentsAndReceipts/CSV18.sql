@@ -1,0 +1,20 @@
+SELECT
+   CSV18.DocEntry AS 'Document Internal ID', 
+   CSV18.LineNum AS 'Row Number', 
+   CSV18.LogInstanc AS 'Log Instance', 
+   CSV18.ObjectType AS 'Object Type', 
+   CSV18.ExpDocType AS 'Exportation Document Type', 
+   CSV18.ExpDeclNum AS 'Exportation Declaration Number', 
+   CSV18.ExpDeclDat AS 'Exportation Declaration Date', 
+   CSV18.ExpNature AS 'Exportation Nature', 
+   CSV18.ExpRegNum AS 'Exportation Registry Number', 
+   CSV18.ExpRegDate AS 'Exportation Registry Date', 
+   CSV18.LadBillNum AS 'Bill of Lading Number', 
+   CSV18.LadBillDat AS 'Bill of Lading Date', 
+   CSV18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   CSV18.LadBillTyp AS 'Bill of Lading Type', 
+   CSV18.DrawSReg AS 'Drawback - Suspension Regime', 
+   CSV18.NatureExp AS 'Nature of Export', 
+   CSV18.QultExpItm AS 'Quantity of Exported Items', 
+   CSV18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM CSV18 AS CSV18

@@ -1,0 +1,23 @@
+SELECT
+   IGE21.DocEntry AS 'Internal Number', 
+   IGE21.ObjectType AS 'Object Type', 
+   IGE21.LogInstanc AS 'Log Instance', 
+   IGE21.RefType AS 'Reference Types', 
+   IGE21.LineNum AS 'Line Number', 
+   IGE21.RefDocEntr AS 'Referenced Internal Number', 
+   IGE21.RefDocNum AS 'Referenced Document Number', 
+   IGE21.ExtDocNum AS 'External Referenced Document Number', 
+   IGE21.RefObjType AS 'Referenced Object Type', 
+   IGE21.AccessKey AS 'Access Key', 
+   IGE21.IssueDate AS 'Date of Issue', 
+   IGE21.IssuerCNPJ AS 'Issuer CNPJ', 
+   IGE21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   IGE21.Model AS 'Fiscal Document Model', 
+   IGE21.Series AS 'Fiscal Document Series', 
+   IGE21.Number AS 'Fiscal Document Number', 
+   IGE21.RefAccKey AS 'Referenced CT-e Access Key', 
+   IGE21.RefAmount AS 'Referenced Amount', 
+   IGE21.SubSeries AS 'Fiscal Document Subseries', 
+   IGE21.Remark AS 'Remarks', 
+   IGE21.LinkRefTyp AS 'Link Reference Type'
+FROM IGE21 AS IGE21

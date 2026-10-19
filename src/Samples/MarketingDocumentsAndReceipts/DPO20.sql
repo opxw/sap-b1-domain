@@ -1,0 +1,22 @@
+SELECT
+   DPO20.DocEntry AS 'Document Internal ID', 
+   DPO20.ExpnsCode AS 'Freight Code', 
+   DPO20.TotalLC AS 'Total', 
+   DPO20.TotalFC AS 'Total (FC)', 
+   DPO20.TotalSC AS 'Total (SC)', 
+   DPO20.DistribM AS 'Distribution Method', 
+   DPO20.DrawnLC AS 'Drawn Total', 
+   DPO20.DrawnFC AS 'Drawn Total (FC)', 
+   DPO20.DrawnSC AS 'Drawn Total (SC)', 
+   DPO20.LineNum AS 'Line Number', 
+   DPO20.BaseAbsEnt AS 'Base Abs. Entry', 
+   DPO20.BaseType AS 'Base Document Type', 
+   DPO20.BaseRef AS 'Base Document Reference', 
+   DPO20.BaseLnNum AS 'Base Document Row No.', 
+   DPO20.LogInstanc AS 'Log Instance', 
+   DPO20.ObjectType AS 'Object Type', 
+   DPO20.FixCurr AS 'Fixation Currency', 
+   DPO20.AppliedLC AS 'Applied', 
+   DPO20.AppliedFC AS 'Applied (FC)', 
+   DPO20.AppliedSC AS 'Applied (SC)'
+FROM DPO20 AS DPO20

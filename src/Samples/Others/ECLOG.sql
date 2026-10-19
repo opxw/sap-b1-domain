@@ -1,0 +1,4 @@
+SELECT
+   ECLOG.Id AS '', 
+   ECLOG.TimeStamp AS ''
+FROM ECLOG AS ECLOG

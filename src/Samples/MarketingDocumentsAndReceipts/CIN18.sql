@@ -1,0 +1,20 @@
+SELECT
+   CIN18.DocEntry AS 'Document Internal ID', 
+   CIN18.LineNum AS 'Row Number', 
+   CIN18.LogInstanc AS 'Log Instance', 
+   CIN18.ObjectType AS 'Object Type', 
+   CIN18.ExpDocType AS 'Exportation Document Type', 
+   CIN18.ExpDeclNum AS 'Exportation Declaration Number', 
+   CIN18.ExpDeclDat AS 'Exportation Declaration Date', 
+   CIN18.ExpNature AS 'Exportation Nature', 
+   CIN18.ExpRegNum AS 'Exportation Registry Number', 
+   CIN18.ExpRegDate AS 'Exportation Registry Date', 
+   CIN18.LadBillNum AS 'Bill of Lading Number', 
+   CIN18.LadBillDat AS 'Bill of Lading Date', 
+   CIN18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   CIN18.LadBillTyp AS 'Bill of Lading Type', 
+   CIN18.DrawSReg AS 'Drawback - Suspension Regime', 
+   CIN18.NatureExp AS 'Nature of Export', 
+   CIN18.QultExpItm AS 'Quantity of Exported Items', 
+   CIN18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM CIN18 AS CIN18

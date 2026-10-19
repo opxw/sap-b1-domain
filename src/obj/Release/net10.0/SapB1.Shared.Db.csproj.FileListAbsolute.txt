@@ -1,0 +1,12 @@
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\bin\Release\net10.0\SapB1.Shared.Db.deps.json
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\bin\Release\net10.0\SapB1.Shared.Db.dll
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\bin\Release\net10.0\SapB1.Shared.Db.pdb
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\obj\Release\net10.0\SapB1.Shared.Db.csproj.AssemblyReference.cache
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\obj\Release\net10.0\SapB1.Shared.Db.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\obj\Release\net10.0\SapB1.Shared.Db.AssemblyInfoInputs.cache
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\obj\Release\net10.0\SapB1.Shared.Db.AssemblyInfo.cs
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\obj\Release\net10.0\SapB1.Shared.Db.csproj.CoreCompileInputs.cache
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\obj\Release\net10.0\SapB1.Shared.Db.dll
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\obj\Release\net10.0\refint\SapB1.Shared.Db.dll
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\obj\Release\net10.0\SapB1.Shared.Db.pdb
+D:\projects\git\sap-b1-api\shared\SapB1.Shared.Db\obj\Release\net10.0\ref\SapB1.Shared.Db.dll

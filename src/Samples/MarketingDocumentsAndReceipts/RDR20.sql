@@ -1,0 +1,22 @@
+SELECT
+   RDR20.DocEntry AS 'Document Internal ID', 
+   RDR20.ExpnsCode AS 'Freight Code', 
+   RDR20.TotalLC AS 'Total', 
+   RDR20.TotalFC AS 'Total (FC)', 
+   RDR20.TotalSC AS 'Total (SC)', 
+   RDR20.DistribM AS 'Distribution Method', 
+   RDR20.DrawnLC AS 'Drawn Total', 
+   RDR20.DrawnFC AS 'Drawn Total (FC)', 
+   RDR20.DrawnSC AS 'Drawn Total (SC)', 
+   RDR20.LineNum AS 'Line Number', 
+   RDR20.BaseAbsEnt AS 'Base Abs. Entry', 
+   RDR20.BaseType AS 'Base Document Type', 
+   RDR20.BaseRef AS 'Base Document Reference', 
+   RDR20.BaseLnNum AS 'Base Document Row No.', 
+   RDR20.LogInstanc AS 'Log Instance', 
+   RDR20.ObjectType AS 'Object Type', 
+   RDR20.FixCurr AS 'Fixation Currency', 
+   RDR20.AppliedLC AS 'Applied', 
+   RDR20.AppliedFC AS 'Applied (FC)', 
+   RDR20.AppliedSC AS 'Applied (SC)'
+FROM RDR20 AS RDR20

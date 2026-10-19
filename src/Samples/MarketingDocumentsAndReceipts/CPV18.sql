@@ -1,0 +1,20 @@
+SELECT
+   CPV18.DocEntry AS 'Document Internal ID', 
+   CPV18.LineNum AS 'Row Number', 
+   CPV18.LogInstanc AS 'Log Instance', 
+   CPV18.ObjectType AS 'Object Type', 
+   CPV18.ExpDocType AS 'Type of Exportation Document', 
+   CPV18.ExpDeclNum AS 'Exportation Declaration Number', 
+   CPV18.ExpDeclDat AS 'Exportation Declaration Date', 
+   CPV18.ExpNature AS 'Nature of Exportation', 
+   CPV18.ExpRegNum AS 'Number of Exportation Registry', 
+   CPV18.ExpRegDate AS 'Date of Exportation Registry', 
+   CPV18.LadBillNum AS 'Bill of Lading Number', 
+   CPV18.LadBillDat AS 'Date of Bill of Lading', 
+   CPV18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   CPV18.LadBillTyp AS 'Type of Bill of Lading', 
+   CPV18.DrawSReg AS 'Drawback - Suspension Regime', 
+   CPV18.NatureExp AS 'Nature of Export', 
+   CPV18.QultExpItm AS 'Quantity of Exported Items', 
+   CPV18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM CPV18 AS CPV18

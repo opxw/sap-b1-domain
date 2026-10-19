@@ -1,0 +1,22 @@
+SELECT
+   PMG4.AbsEntry AS 'Internal Key', 
+   PMG4.LineID AS 'Row No.', 
+   PMG4.StageID AS 'Stage ID', 
+   PMG4.TYP AS 'Document Type', 
+   PMG4.DOCNUM AS 'Document Number', 
+   PMG4.DocEntry AS 'Document Abs. Entry', 
+   PMG4.DocDate AS 'Document Date', 
+   PMG4.Total AS 'Total', 
+   PMG4.LineNum AS 'Line Number', 
+   PMG4.Status AS 'Line status', 
+   PMG4.LogInstanc AS 'Log Instance', 
+   PMG4.AmountCat AS 'Category to which we will apply the amount from Total', 
+   PMG4.Categorize AS 'Category Open Amount/Invoiced A/R, A/P to which we will apply the amount from journal entry', 
+   PMG4.Operation AS 'Operation which we will apply to the amount from the total', 
+   PMG4.Chargeable AS 'Chargeable [Yes/No]', 
+   PMG4.Charged AS 'Charged', 
+   PMG4.ChargedQty AS 'Charged Quantity', 
+   PMG4.DocType AS 'Document Type', 
+   PMG4.EncryptIV AS 'Encrypt IV', 
+   PMG4.PartTotal AS 'Partially Invoiced Total'
+FROM PMG4 AS PMG4

@@ -1,0 +1,23 @@
+SELECT
+   DPI21.DocEntry AS 'Internal Number', 
+   DPI21.ObjectType AS 'Object Type', 
+   DPI21.LogInstanc AS 'Log Instance', 
+   DPI21.RefType AS 'Reference Types', 
+   DPI21.LineNum AS 'Line Number', 
+   DPI21.RefDocEntr AS 'Referenced Internal Number', 
+   DPI21.RefDocNum AS 'Referenced Document Number', 
+   DPI21.ExtDocNum AS 'External Referenced Document Number', 
+   DPI21.RefObjType AS 'Referenced Object Type', 
+   DPI21.AccessKey AS 'Access Key', 
+   DPI21.IssueDate AS 'Date of Issue', 
+   DPI21.IssuerCNPJ AS 'Issuer CNPJ', 
+   DPI21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   DPI21.Model AS 'Fiscal Document Model', 
+   DPI21.Series AS 'Fiscal Document Series', 
+   DPI21.Number AS 'Fiscal Document Number', 
+   DPI21.RefAccKey AS 'Referenced CT-e Access Key', 
+   DPI21.RefAmount AS 'Referenced Amount', 
+   DPI21.SubSeries AS 'Fiscal Document Subseries', 
+   DPI21.Remark AS 'Remarks', 
+   DPI21.LinkRefTyp AS 'Link Reference Type'
+FROM DPI21 AS DPI21

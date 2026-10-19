@@ -1,0 +1,22 @@
+SELECT
+   OEI20.DocEntry AS 'Document Internal ID', 
+   OEI20.ExpnsCode AS 'Freight Code', 
+   OEI20.TotalLC AS 'Total', 
+   OEI20.TotalFC AS 'Total (FC)', 
+   OEI20.TotalSC AS 'Total (SC)', 
+   OEI20.DistribM AS 'Distribution Method', 
+   OEI20.DrawnLC AS 'Drawn Total', 
+   OEI20.DrawnFC AS 'Drawn Total (FC)', 
+   OEI20.DrawnSC AS 'Drawn Total (SC)', 
+   OEI20.LineNum AS 'Line Number', 
+   OEI20.BaseAbsEnt AS 'Base Abs. Entry', 
+   OEI20.BaseType AS 'Base Document Type', 
+   OEI20.BaseRef AS 'Base Document Reference', 
+   OEI20.BaseLnNum AS 'Base Document Row No.', 
+   OEI20.LogInstanc AS 'Log Instance', 
+   OEI20.ObjectType AS 'Object Type', 
+   OEI20.FixCurr AS 'Fixation Currency', 
+   OEI20.AppliedLC AS 'Applied', 
+   OEI20.AppliedFC AS 'Applied (FC)', 
+   OEI20.AppliedSC AS 'Applied (SC)'
+FROM OEI20 AS OEI20

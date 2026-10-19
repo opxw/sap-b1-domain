@@ -1,0 +1,22 @@
+SELECT
+   INV20.DocEntry AS 'Document Internal ID', 
+   INV20.ExpnsCode AS 'Freight Code', 
+   INV20.TotalLC AS 'Total', 
+   INV20.TotalFC AS 'Total (FC)', 
+   INV20.TotalSC AS 'Total (SC)', 
+   INV20.DistribM AS 'Distribution Method', 
+   INV20.DrawnLC AS 'Drawn Total', 
+   INV20.DrawnFC AS 'Drawn Total (FC)', 
+   INV20.DrawnSC AS 'Drawn Total (SC)', 
+   INV20.LineNum AS 'Line Number', 
+   INV20.BaseAbsEnt AS 'Base Abs. Entry', 
+   INV20.BaseType AS 'Base Document Type', 
+   INV20.BaseRef AS 'Base Document Reference', 
+   INV20.BaseLnNum AS 'Base Document Row No.', 
+   INV20.LogInstanc AS 'Log Instance', 
+   INV20.ObjectType AS 'Object Type', 
+   INV20.FixCurr AS 'Fixation Currency', 
+   INV20.AppliedLC AS 'Applied', 
+   INV20.AppliedFC AS 'Applied (FC)', 
+   INV20.AppliedSC AS 'Applied (SC)'
+FROM INV20 AS INV20

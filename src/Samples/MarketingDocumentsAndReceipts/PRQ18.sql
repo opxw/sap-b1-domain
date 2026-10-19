@@ -1,0 +1,20 @@
+SELECT
+   PRQ18.DocEntry AS 'Document Internal ID', 
+   PRQ18.LineNum AS 'Row Number', 
+   PRQ18.LogInstanc AS 'Log Instance', 
+   PRQ18.ObjectType AS 'Object Type', 
+   PRQ18.ExpDocType AS 'Exportation Document Type', 
+   PRQ18.ExpDeclNum AS 'Exportation Declaration Number', 
+   PRQ18.ExpDeclDat AS 'Exportation Declaration Date', 
+   PRQ18.ExpNature AS 'Exportation Nature', 
+   PRQ18.ExpRegNum AS 'Exportation Registry Number', 
+   PRQ18.ExpRegDate AS 'Exportation Registry Date', 
+   PRQ18.LadBillNum AS 'Bill of Lading Number', 
+   PRQ18.LadBillDat AS 'Bill of Lading Date', 
+   PRQ18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   PRQ18.LadBillTyp AS 'Bill of Lading Type', 
+   PRQ18.DrawSReg AS 'Drawback - Suspension Regime', 
+   PRQ18.NatureExp AS 'Nature of Export', 
+   PRQ18.QultExpItm AS 'Quantity of Exported Items', 
+   PRQ18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM PRQ18 AS PRQ18

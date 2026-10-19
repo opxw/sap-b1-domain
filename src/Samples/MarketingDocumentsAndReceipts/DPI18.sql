@@ -1,0 +1,20 @@
+SELECT
+   DPI18.DocEntry AS 'Document Internal ID', 
+   DPI18.LineNum AS 'Row Number', 
+   DPI18.LogInstanc AS 'Log Instance', 
+   DPI18.ObjectType AS 'Object Type', 
+   DPI18.ExpDocType AS 'Type of Exportation Document', 
+   DPI18.ExpDeclNum AS 'Exportation Declaration Number', 
+   DPI18.ExpDeclDat AS 'Exportation Declaration Date', 
+   DPI18.ExpNature AS 'Nature of Exportation', 
+   DPI18.ExpRegNum AS 'Number of Exportation Registry', 
+   DPI18.ExpRegDate AS 'Date of Exportation Registry', 
+   DPI18.LadBillNum AS 'Bill of Lading Number', 
+   DPI18.LadBillDat AS 'Date of Bill of Lading', 
+   DPI18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   DPI18.LadBillTyp AS 'Type of Bill of Lading', 
+   DPI18.DrawSReg AS 'Drawback - Suspension Regime', 
+   DPI18.NatureExp AS 'Nature of Export', 
+   DPI18.QultExpItm AS 'Quantity of Exported Items', 
+   DPI18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM DPI18 AS DPI18

@@ -1,0 +1,23 @@
+SELECT
+   RADM.DevGroup AS 'Development Group', 
+   RADM.ResVersion AS 'Resource Version', 
+   RADM.ReleaseDte AS 'Rsleade Date', 
+   RADM.RelFrzDate AS 'GUI Freeze Date for Release', 
+   RADM.Sp1Date AS 'SP1 Date', 
+   RADM.Sp1FrzDate AS 'GUI Freeze Date for SP1', 
+   RADM.Sp2Date AS 'SP2 Date', 
+   RADM.Sp2FrzDate AS 'GUI Freeze Date for SP2', 
+   RADM.DbLocked AS 'Is DB Locked for Edit', 
+   RADM.DbVersion AS 'Resource DB Version', 
+   RADM.CreateDate AS 'Creation Date of DB', 
+   RADM.CreateTime AS 'Creation Time of DB', 
+   RADM.CanLogin AS 'Can Users Login', 
+   RADM.ValidPath AS 'Valid Path For Running', 
+   RADM.P4Path AS 'P4 Version Path', 
+   RADM.MDVersion AS 'Metadata Version', 
+   RADM.VerScpDate AS 'Version Scope Date', 
+   RADM.VerScpTime AS 'Version Scope Time', 
+   RADM.TransVer AS 'Translation Version', 
+   RADM.Flags AS 'Resource flags', 
+   RADM.WpFileName AS 'Wallpaper File Name'
+FROM RADM AS RADM

@@ -1,0 +1,22 @@
+SELECT
+   ITM10.ItemCode AS 'Item No.', 
+   ITM10.ISCommCode AS 'Commodity Code', 
+   ITM10.ISSubMasUn AS 'Intrastat Additional Measure', 
+   ITM10.ISFactor AS 'IS Factor Additional Measure', 
+   ITM10.ISOrCSTImp AS 'IS Destination State for Impor.', 
+   ITM10.ISOrCSTExp AS 'IS State of Origin for Export', 
+   ITM10.ISNaTraImp AS 'IS Nature of Trans. Import', 
+   ITM10.ISNaTraExp AS 'IS Nature of Trans. Export', 
+   ITM10.ISStProImp AS 'IS Statistical Procedure Imp.', 
+   ITM10.ISStProExp AS 'IS Statistical Procedure Exp.', 
+   ITM10.ISOriCntry AS 'Intrastat Country of Origin', 
+   ITM10.ISSerCode AS 'Intrastat Service Code', 
+   ITM10.ISItemType AS 'Intrastat Item Type', 
+   ITM10.ISSerSupMt AS 'IS Service Supply Method', 
+   ITM10.ISSerPayMt AS 'IS Service Payment Method', 
+   ITM10.ISOrCRYImp AS 'IS Destination Country for Imp.', 
+   ITM10.ISOrCRYExp AS 'IS Origin Country for Export', 
+   ITM10.ISUseWeigh AS 'Use Wt in Add. Measure Calc.', 
+   ITM10.ISRelevant AS 'Intrastat Relevant', 
+   ITM10.ISStatCode AS 'Statistical Code'
+FROM ITM10 AS ITM10

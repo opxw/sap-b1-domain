@@ -1,0 +1,23 @@
+SELECT
+   ADO21.DocEntry AS 'Internal Number', 
+   ADO21.ObjectType AS 'Object Type', 
+   ADO21.LogInstanc AS 'Log Instance', 
+   ADO21.RefType AS 'Reference Types', 
+   ADO21.LineNum AS 'Line Number', 
+   ADO21.RefDocEntr AS 'Referenced Internal Number', 
+   ADO21.RefDocNum AS 'Referenced Document Number', 
+   ADO21.ExtDocNum AS 'External Referenced Document Number', 
+   ADO21.RefObjType AS 'Referenced Object Type', 
+   ADO21.AccessKey AS 'Access Key', 
+   ADO21.IssueDate AS 'Date of Issue', 
+   ADO21.IssuerCNPJ AS 'Issuer CNPJ', 
+   ADO21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   ADO21.Model AS 'Fiscal Document Model', 
+   ADO21.Series AS 'Fiscal Document Series', 
+   ADO21.Number AS 'Fiscal Document Number', 
+   ADO21.RefAccKey AS 'Referenced CT-e Access Key', 
+   ADO21.RefAmount AS 'Referenced Amount', 
+   ADO21.SubSeries AS 'Fiscal Document Subseries', 
+   ADO21.Remark AS 'Remarks', 
+   ADO21.LinkRefTyp AS 'Link Reference Type'
+FROM ADO21 AS ADO21

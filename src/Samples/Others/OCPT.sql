@@ -1,0 +1,20 @@
+SELECT
+   OCPT.AbsEntry AS 'Internal Number', 
+   OCPT.Code AS 'Cockpit Code', 
+   OCPT.Name AS 'Name', 
+   OCPT.Descr AS 'Description', 
+   OCPT.IsDefault AS 'Is Default', 
+   OCPT.UserSign AS 'User ID', 
+   OCPT.IsPublic AS 'Public', 
+   OCPT.Strategy AS 'Layout Strategy', 
+   OCPT._Top AS 'Client Top', 
+   OCPT._Left AS 'Client Left', 
+   OCPT._Width AS 'Client Width', 
+   OCPT._Height AS 'Client Height', 
+   OCPT.Date AS 'Publication Date', 
+   OCPT.Time AS 'Publication Time', 
+   OCPT.Mnfacturer AS 'Provider', 
+   OCPT.Pubby AS 'Published By', 
+   OCPT.Disabled AS 'Disabled', 
+   OCPT.Type AS 'Type'
+FROM OCPT AS OCPT

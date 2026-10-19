@@ -1,0 +1,23 @@
+SELECT
+   SFI21.DocEntry AS 'Internal Number', 
+   SFI21.ObjectType AS 'Object Type', 
+   SFI21.LogInstanc AS 'Log Instance', 
+   SFI21.RefType AS 'Reference Types', 
+   SFI21.LineNum AS 'Line Number', 
+   SFI21.RefDocEntr AS 'Referenced Internal Number', 
+   SFI21.RefDocNum AS 'Referenced Document Number', 
+   SFI21.ExtDocNum AS 'External Referenced Document Number', 
+   SFI21.RefObjType AS 'Referenced Object Type', 
+   SFI21.AccessKey AS 'Access Key', 
+   SFI21.IssueDate AS 'Date of Issue', 
+   SFI21.IssuerCNPJ AS 'Issuer CNPJ', 
+   SFI21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   SFI21.Model AS 'Fiscal Document Model', 
+   SFI21.Series AS 'Fiscal Document Series', 
+   SFI21.Number AS 'Fiscal Document Number', 
+   SFI21.RefAccKey AS 'Referenced CT-e Access Key', 
+   SFI21.RefAmount AS 'Referenced Amount', 
+   SFI21.SubSeries AS 'Fiscal Document Subseries', 
+   SFI21.Remark AS 'Remarks', 
+   SFI21.LinkRefTyp AS 'Link Reference Type'
+FROM SFI21 AS SFI21

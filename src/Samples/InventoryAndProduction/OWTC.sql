@@ -1,0 +1,21 @@
+SELECT
+   OWTC.AbsEntry AS 'Internal Number', 
+   OWTC.RctType AS 'Object Type', 
+   OWTC.RctAbs AS 'Receipt No.', 
+   OWTC.Jurisdict AS 'Jurisdiction', 
+   OWTC.WtaxType AS 'WTax Type', 
+   OWTC.WtAbsEntry AS 'Internal Number', 
+   OWTC.DueDate AS 'Due Date', 
+   OWTC.CerSeries AS 'WTax Certificate Series', 
+   OWTC.Number AS 'Number', 
+   OWTC.RefNumber AS 'Reference Number', 
+   OWTC.SumVatAmnt AS 'Sum of VAT Amount', 
+   OWTC.SumDocTot AS 'Sum of Doc. Total Amount', 
+   OWTC.SumBaseAmn AS 'Sum of Base Amount', 
+   OWTC.SumAccumAm AS 'Sum of Accumulated Amount', 
+   OWTC.SumPercpAm AS 'Sum of Perception Amount', 
+   OWTC.PTICode AS 'POI Code', 
+   OWTC.Handwrtten AS 'Manual Numbering', 
+   OWTC.PIndicator AS 'Period Indicator', 
+   OWTC.PTICodeRef AS 'POI Code Reference'
+FROM OWTC AS OWTC

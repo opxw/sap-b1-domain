@@ -1,0 +1,5 @@
+SELECT
+   OFAI.ID AS 'ID', 
+   OFAI.APP_ID AS 'Office 365 App ID', 
+   OFAI.APP_PASS AS 'Office 365 App Password'
+FROM OFAI AS OFAI

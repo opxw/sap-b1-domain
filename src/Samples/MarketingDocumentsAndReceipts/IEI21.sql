@@ -1,0 +1,23 @@
+SELECT
+   IEI21.DocEntry AS 'Internal Number', 
+   IEI21.ObjectType AS 'Object Type', 
+   IEI21.LogInstanc AS 'Log Instance', 
+   IEI21.RefType AS 'Reference Types', 
+   IEI21.LineNum AS 'Line Number', 
+   IEI21.RefDocEntr AS 'Referenced Internal Number', 
+   IEI21.RefDocNum AS 'Referenced Document Number', 
+   IEI21.ExtDocNum AS 'External Referenced Document Number', 
+   IEI21.RefObjType AS 'Referenced Object Type', 
+   IEI21.AccessKey AS 'Access Key', 
+   IEI21.IssueDate AS 'Date of Issue', 
+   IEI21.IssuerCNPJ AS 'Issuer CNPJ', 
+   IEI21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   IEI21.Model AS 'Fiscal Document Model', 
+   IEI21.Series AS 'Fiscal Document Series', 
+   IEI21.Number AS 'Fiscal Document Number', 
+   IEI21.RefAccKey AS 'Referenced CT-e Access Key', 
+   IEI21.RefAmount AS 'Referenced Amount', 
+   IEI21.SubSeries AS 'Fiscal Document Subseries', 
+   IEI21.Remark AS 'Remarks', 
+   IEI21.LinkRefTyp AS 'Link Reference Type'
+FROM IEI21 AS IEI21

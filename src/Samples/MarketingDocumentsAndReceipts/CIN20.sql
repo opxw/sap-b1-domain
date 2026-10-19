@@ -1,0 +1,22 @@
+SELECT
+   CIN20.DocEntry AS 'Document Internal ID', 
+   CIN20.ExpnsCode AS 'Freight Code', 
+   CIN20.TotalLC AS 'Total', 
+   CIN20.TotalFC AS 'Total (FC)', 
+   CIN20.TotalSC AS 'Total (SC)', 
+   CIN20.DistribM AS 'Distribution Method', 
+   CIN20.DrawnLC AS 'Drawn Total', 
+   CIN20.DrawnFC AS 'Drawn Total (FC)', 
+   CIN20.DrawnSC AS 'Drawn Total (SC)', 
+   CIN20.LineNum AS 'Line Number', 
+   CIN20.BaseAbsEnt AS 'Base Abs. Entry', 
+   CIN20.BaseType AS 'Base Document Type', 
+   CIN20.BaseRef AS 'Base Document Reference', 
+   CIN20.BaseLnNum AS 'Base Document Row No.', 
+   CIN20.LogInstanc AS 'Log Instance', 
+   CIN20.ObjectType AS 'Object Type', 
+   CIN20.FixCurr AS 'Fixation Currency', 
+   CIN20.AppliedLC AS 'Applied', 
+   CIN20.AppliedFC AS 'Applied (FC)', 
+   CIN20.AppliedSC AS 'Applied (SC)'
+FROM CIN20 AS CIN20

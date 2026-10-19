@@ -1,0 +1,22 @@
+SELECT
+   ORCP.AbsEntry AS 'Internal Number', 
+   ORCP.Code AS 'Template Code', 
+   ORCP.Dscription AS 'Description', 
+   ORCP.IsRemoved AS 'Is Removed', 
+   ORCP.DocObjType AS 'Linked Document Type', 
+   ORCP.DraftEntry AS 'Linked Draft Entry', 
+   ORCP.Frequency AS 'Frequency', 
+   ORCP.Remind AS 'Sub-Frequency', 
+   ORCP.StartDate AS 'Execution Start Date', 
+   ORCP.EndDate AS 'Execution End Date', 
+   ORCP.LogInstanc AS 'Log Instance', 
+   ORCP.CreateUser AS 'Created by User', 
+   ORCP.CreateDate AS 'Creation Date', 
+   ORCP.CreateTime AS 'Creation Time', 
+   ORCP.UpdateUser AS 'Updated by User', 
+   ORCP.UpdateDate AS 'Update Date', 
+   ORCP.UpdateTime AS 'Update Time', 
+   ORCP.DataSource AS 'Data Source', 
+   ORCP.PriceUpdat AS 'Prices Update', 
+   ORCP.CardCode AS 'Customer/Vendor Code'
+FROM ORCP AS ORCP

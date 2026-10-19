@@ -1,0 +1,20 @@
+SELECT
+   IGN18.DocEntry AS 'Document Internal ID', 
+   IGN18.LineNum AS 'Row Number', 
+   IGN18.LogInstanc AS 'Log Instance', 
+   IGN18.ObjectType AS 'Object Type', 
+   IGN18.ExpDocType AS 'Type of Exportation Document', 
+   IGN18.ExpDeclNum AS 'Exportation Declaration Number', 
+   IGN18.ExpDeclDat AS 'Exportation Declaration Date', 
+   IGN18.ExpNature AS 'Nature of Exportation', 
+   IGN18.ExpRegNum AS 'Number of Exportation Registry', 
+   IGN18.ExpRegDate AS 'Date of Exportation Registry', 
+   IGN18.LadBillNum AS 'Bill of Lading Number', 
+   IGN18.LadBillDat AS 'Date of Bill of Lading', 
+   IGN18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   IGN18.LadBillTyp AS 'Type of Bill of Lading', 
+   IGN18.DrawSReg AS 'Drawback - Suspension Regime', 
+   IGN18.NatureExp AS 'Nature of Export', 
+   IGN18.QultExpItm AS 'Quantity of Exported Items', 
+   IGN18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM IGN18 AS IGN18

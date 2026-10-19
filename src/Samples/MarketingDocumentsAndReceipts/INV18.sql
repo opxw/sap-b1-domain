@@ -1,0 +1,20 @@
+SELECT
+   INV18.DocEntry AS 'Document Internal ID', 
+   INV18.LineNum AS 'Row Number', 
+   INV18.LogInstanc AS 'Log Instance', 
+   INV18.ObjectType AS 'Object Type', 
+   INV18.ExpDocType AS 'Type of Exportation Document', 
+   INV18.ExpDeclNum AS 'Exportation Declaration Number', 
+   INV18.ExpDeclDat AS 'Exportation Declaration Date', 
+   INV18.ExpNature AS 'Nature of Exportation', 
+   INV18.ExpRegNum AS 'Number of Exportation Registry', 
+   INV18.ExpRegDate AS 'Date of Exportation Registry', 
+   INV18.LadBillNum AS 'Bill of Lading Number', 
+   INV18.LadBillDat AS 'Date of Bill of Lading', 
+   INV18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   INV18.LadBillTyp AS 'Type of Bill of Lading', 
+   INV18.DrawSReg AS 'Drawback - Suspension Regime', 
+   INV18.NatureExp AS 'Nature of Export', 
+   INV18.QultExpItm AS 'Quantity of Exported Items', 
+   INV18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM INV18 AS INV18

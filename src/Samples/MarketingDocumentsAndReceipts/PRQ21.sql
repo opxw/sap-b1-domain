@@ -1,0 +1,23 @@
+SELECT
+   PRQ21.DocEntry AS 'Internal Number', 
+   PRQ21.ObjectType AS 'Object Type', 
+   PRQ21.LogInstanc AS 'Log Instance', 
+   PRQ21.RefType AS 'Reference Types', 
+   PRQ21.LineNum AS 'Line Number', 
+   PRQ21.RefDocEntr AS 'Referenced Internal Number', 
+   PRQ21.RefDocNum AS 'Referenced Document Number', 
+   PRQ21.ExtDocNum AS 'External Referenced Document Number', 
+   PRQ21.RefObjType AS 'Referenced Object Type', 
+   PRQ21.AccessKey AS 'Access Key', 
+   PRQ21.IssueDate AS 'Date of Issue', 
+   PRQ21.IssuerCNPJ AS 'Issuer CNPJ', 
+   PRQ21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   PRQ21.Model AS 'Fiscal Document Model', 
+   PRQ21.Series AS 'Fiscal Document Series', 
+   PRQ21.Number AS 'Fiscal Document Number', 
+   PRQ21.RefAccKey AS 'Referenced CT-e Access Key', 
+   PRQ21.RefAmount AS 'Referenced Amount', 
+   PRQ21.SubSeries AS 'Fiscal Document Subseries', 
+   PRQ21.Remark AS 'Remarks', 
+   PRQ21.LinkRefTyp AS 'Link Reference Type'
+FROM PRQ21 AS PRQ21

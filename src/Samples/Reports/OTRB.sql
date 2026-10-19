@@ -1,0 +1,20 @@
+SELECT
+   OTRB.AbsEntry AS 'Internal Number', 
+   OTRB.BPLId AS 'Branch ID', 
+   OTRB.GPCId AS 'Government Payment Code', 
+   OTRB.GPCCode AS 'Government Payment Code', 
+   OTRB.Year AS 'Reporting Year', 
+   OTRB.PrdType AS 'Period Type', 
+   OTRB.PrdNum AS 'Period Number', 
+   OTRB.PrdDate AS 'Period Date To', 
+   OTRB.RunName AS 'Wizard Run Name', 
+   OTRB.RunDate AS 'Wizard Run Date', 
+   OTRB.Status AS 'Wizard Run Status', 
+   OTRB.StateTax AS 'State Tax', 
+   OTRB.DueDate AS 'Due Date', 
+   OTRB.UserSign AS 'User Signature', 
+   OTRB.UserSign2 AS 'Updating User', 
+   OTRB.CreateDate AS 'Creation Date', 
+   OTRB.CreateTime AS 'Generation Time', 
+   OTRB.UpdateDate AS 'Date of Update'
+FROM OTRB AS OTRB

@@ -1,0 +1,23 @@
+SELECT
+   DPO21.DocEntry AS 'Internal Number', 
+   DPO21.ObjectType AS 'Object Type', 
+   DPO21.LogInstanc AS 'Log Instance', 
+   DPO21.RefType AS 'Reference Types', 
+   DPO21.LineNum AS 'Line Number', 
+   DPO21.RefDocEntr AS 'Referenced Internal Number', 
+   DPO21.RefDocNum AS 'Referenced Document Number', 
+   DPO21.ExtDocNum AS 'External Referenced Document Number', 
+   DPO21.RefObjType AS 'Referenced Object Type', 
+   DPO21.AccessKey AS 'Access Key', 
+   DPO21.IssueDate AS 'Date of Issue', 
+   DPO21.IssuerCNPJ AS 'Issuer CNPJ', 
+   DPO21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   DPO21.Model AS 'Fiscal Document Model', 
+   DPO21.Series AS 'Fiscal Document Series', 
+   DPO21.Number AS 'Fiscal Document Number', 
+   DPO21.RefAccKey AS 'Referenced CT-e Access Key', 
+   DPO21.RefAmount AS 'Referenced Amount', 
+   DPO21.SubSeries AS 'Fiscal Document Subseries', 
+   DPO21.Remark AS 'Remarks', 
+   DPO21.LinkRefTyp AS 'Link Reference Type'
+FROM DPO21 AS DPO21

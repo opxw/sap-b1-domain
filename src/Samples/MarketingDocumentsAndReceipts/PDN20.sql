@@ -1,0 +1,22 @@
+SELECT
+   PDN20.DocEntry AS 'Document Internal ID', 
+   PDN20.ExpnsCode AS 'Freight Code', 
+   PDN20.TotalLC AS 'Total', 
+   PDN20.TotalFC AS 'Total (FC)', 
+   PDN20.TotalSC AS 'Total (SC)', 
+   PDN20.DistribM AS 'Distribution Method', 
+   PDN20.DrawnLC AS 'Drawn Total', 
+   PDN20.DrawnFC AS 'Drawn Total (FC)', 
+   PDN20.DrawnSC AS 'Drawn Total (SC)', 
+   PDN20.LineNum AS 'Line Number', 
+   PDN20.BaseAbsEnt AS 'Base Abs. Entry', 
+   PDN20.BaseType AS 'Base Document Type', 
+   PDN20.BaseRef AS 'Base Document Reference', 
+   PDN20.BaseLnNum AS 'Base Document Row No.', 
+   PDN20.LogInstanc AS 'Log Instance', 
+   PDN20.ObjectType AS 'Object Type', 
+   PDN20.FixCurr AS 'Fixation Currency', 
+   PDN20.AppliedLC AS 'Applied', 
+   PDN20.AppliedFC AS 'Applied (FC)', 
+   PDN20.AppliedSC AS 'Applied (SC)'
+FROM PDN20 AS PDN20

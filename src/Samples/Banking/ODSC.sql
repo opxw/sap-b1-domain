@@ -1,0 +1,23 @@
+SELECT
+   ODSC.BankCode AS 'Bank Code', 
+   ODSC.BankName AS 'Bank Name', 
+   ODSC.DfltAcct AS 'Account for Outgoing Checks', 
+   ODSC.DfltBranch AS 'Branch for Outgoing Checks', 
+   ODSC.NextChckNo AS 'Next Check Number', 
+   ODSC.Locked AS 'Locked', 
+   ODSC.DataSource AS 'Data Source', 
+   ODSC.UserSign AS 'User Signature', 
+   ODSC.SwiftNum AS 'BIC/SWIFT Code', 
+   ODSC.IBAN AS 'IBAN', 
+   ODSC.CountryCod AS 'Country/Region Code', 
+   ODSC.PostOffice AS 'Post Office', 
+   ODSC.AliasName AS 'Alias Name', 
+   ODSC.AbsEntry AS 'Absolute entry', 
+   ODSC.DfltActKey AS 'Default Bank Account Key', 
+   ODSC.NextNum AS 'Our Number in Next Boleto', 
+   ODSC.BsPstDate AS 'Posting Date Definition', 
+   ODSC.BsValDate AS 'Due Date Definition', 
+   ODSC.BnkOpCode AS 'Bank Operation Code List', 
+   ODSC.BsDocDate AS 'Document Date Definition', 
+   ODSC.TaxIdNum AS 'Federal Tax ID'
+FROM ODSC AS ODSC

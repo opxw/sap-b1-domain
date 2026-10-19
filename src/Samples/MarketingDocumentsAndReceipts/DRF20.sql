@@ -1,0 +1,22 @@
+SELECT
+   DRF20.DocEntry AS 'Document Internal ID', 
+   DRF20.ExpnsCode AS 'Freight Code', 
+   DRF20.TotalLC AS 'Total', 
+   DRF20.TotalFC AS 'Total (FC)', 
+   DRF20.TotalSC AS 'Total (SC)', 
+   DRF20.DistribM AS 'Distribution Method', 
+   DRF20.DrawnLC AS 'Drawn Total', 
+   DRF20.DrawnFC AS 'Drawn Total (FC)', 
+   DRF20.DrawnSC AS 'Drawn Total (SC)', 
+   DRF20.LineNum AS 'Line Number', 
+   DRF20.BaseAbsEnt AS 'Base Abs. Entry', 
+   DRF20.BaseType AS 'Base Document Type', 
+   DRF20.BaseRef AS 'Base Document Reference', 
+   DRF20.BaseLnNum AS 'Base Document Row No.', 
+   DRF20.LogInstanc AS 'Log Instance', 
+   DRF20.ObjectType AS 'Object Type', 
+   DRF20.FixCurr AS 'Fixation Currency', 
+   DRF20.AppliedLC AS 'Applied', 
+   DRF20.AppliedFC AS 'Applied (FC)', 
+   DRF20.AppliedSC AS 'Applied (SC)'
+FROM DRF20 AS DRF20

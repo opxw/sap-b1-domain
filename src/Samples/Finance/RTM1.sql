@@ -1,0 +1,21 @@
+SELECT
+   RTM1.LineNum AS 'Reconciliation Key', 
+   RTM1.TransId AS 'Journal Key', 
+   RTM1.JdtLine AS 'Journal Row', 
+   RTM1.IsSysCurr AS 'Is System Currency', 
+   RTM1.AcctCode AS 'G/L Account/BP Code', 
+   RTM1.Balance AS 'Balance', 
+   RTM1.FrnBlnc AS 'Balance (FC)', 
+   RTM1.Valid AS 'Confirmed', 
+   RTM1.RevalRate AS 'Revaluation Rate', 
+   RTM1.Delta AS 'Difference in LC', 
+   RTM1.FCCurrency AS 'Foreign Currency', 
+   RTM1.JdtAcctCod AS 'Journal Account Code', 
+   RTM1.BaseRef AS 'Base Reference', 
+   RTM1.JdtType AS 'Journal Entry Type', 
+   RTM1.RefDate AS 'Posting Date', 
+   RTM1.DueDate AS 'Due Date', 
+   RTM1.TaxDate AS 'Document Date', 
+   RTM1.BPLId AS 'Branch', 
+   RTM1.CntBlnc AS 'Converted Balance'
+FROM RTM1 AS RTM1

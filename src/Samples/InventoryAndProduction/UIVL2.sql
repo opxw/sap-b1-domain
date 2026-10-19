@@ -1,0 +1,20 @@
+SELECT
+   UIVL2.Transseq AS 'Transaction sequence', 
+   UIVL2.MessageID AS 'Message ID', 
+   UIVL2.LineID AS 'Line ID', 
+   UIVL2.POLine AS 'Line in Production Order', 
+   UIVL2.ItemType AS 'Item Type', 
+   UIVL2.ItemCode AS 'Item No.', 
+   UIVL2.LocType AS 'Location Type', 
+   UIVL2.LocCode AS 'Location Code', 
+   UIVL2.LayerTSeq AS 'FIFO Layer Transaction Sequence', 
+   UIVL2.LayerId AS 'Layer ID', 
+   UIVL2.Quantity AS 'Quantity', 
+   UIVL2.TotalLC AS 'Inventory Total LC', 
+   UIVL2.BaseAbsEnt AS 'Abs. Entry of Base Doc.', 
+   UIVL2.BaseType AS 'Base Transaction Type', 
+   UIVL2.BaseLine AS 'Base Line Number', 
+   UIVL2.StgSeqNum AS 'Stage Sequence Number', 
+   UIVL2.StgEntry AS 'Stage Entry', 
+   UIVL2.StgDesc AS 'Stage Description'
+FROM UIVL2 AS UIVL2

@@ -1,0 +1,20 @@
+SELECT
+   IVRU.AbsEntry AS 'Successive No.', 
+   IVRU.SourceDB AS 'Source Database', 
+   IVRU.UtilityDB AS 'Utility DB', 
+   IVRU.IVLGEntry AS 'IVLG Entry', 
+   IVRU.UpdDate AS 'Update Date and Time', 
+   IVRU.TblHINM AS 'HINM Name', 
+   IVRU.TblHITM AS 'HITM Name', 
+   IVRU.TblHITW AS 'HITW Name', 
+   IVRU.TblFINM AS 'FINM Name', 
+   IVRU.TblFITM AS 'FITM Name', 
+   IVRU.TblFITW AS 'FITW Name', 
+   IVRU.TrSeqHINM AS 'Last HINM Trans. Seq. No.', 
+   IVRU.TrSeqOINM AS 'Last OINM Trans. Seq. No.', 
+   IVRU.TrIdUtil AS 'Last OJDT Trans. No. Utility', 
+   IVRU.TrIdProd AS 'Last OJDT Trans. No. Productiv', 
+   IVRU.Comment AS 'Comment', 
+   IVRU.StrFld AS 'General String Field', 
+   IVRU.NumFld AS 'General Number Field'
+FROM IVRU AS IVRU

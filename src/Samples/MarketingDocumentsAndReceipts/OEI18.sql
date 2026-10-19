@@ -1,0 +1,20 @@
+SELECT
+   OEI18.DocEntry AS 'Document Internal ID', 
+   OEI18.LineNum AS 'Row Number', 
+   OEI18.LogInstanc AS 'Log Instance', 
+   OEI18.ObjectType AS 'Object Type', 
+   OEI18.ExpDocType AS 'Type of Exportation Document', 
+   OEI18.ExpDeclNum AS 'Exportation Declaration Number', 
+   OEI18.ExpDeclDat AS 'Exportation Declaration Date', 
+   OEI18.ExpNature AS 'Nature of Exportation', 
+   OEI18.ExpRegNum AS 'Number of Exportation Registry', 
+   OEI18.ExpRegDate AS 'Date of Exportation Registry', 
+   OEI18.LadBillNum AS 'Bill of Lading Number', 
+   OEI18.LadBillDat AS 'Date of Bill of Lading', 
+   OEI18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   OEI18.LadBillTyp AS 'Type of Bill of Lading', 
+   OEI18.DrawSReg AS 'Drawback - Suspension Regime', 
+   OEI18.NatureExp AS 'Nature of Export', 
+   OEI18.QultExpItm AS 'Quantity of Exported Items', 
+   OEI18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM OEI18 AS OEI18

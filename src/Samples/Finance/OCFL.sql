@@ -1,0 +1,20 @@
+SELECT
+   OCFL.Code AS 'Code', 
+   OCFL.DateID AS 'Date', 
+   OCFL.Dscription AS 'Description', 
+   OCFL.Project AS 'Project Code', 
+   OCFL.Credit AS 'Incoming Total', 
+   OCFL.CredCur AS 'Entrance Currency', 
+   OCFL.Debit AS 'Outgoing Amount', 
+   OCFL.DebCur AS 'Issue Currency', 
+   OCFL.SecLevel AS 'Security Level', 
+   OCFL.UserId AS 'User ID', 
+   OCFL.Frequency AS 'Frequency', 
+   OCFL.Remind AS 'Subfrequency', 
+   OCFL.EndDate AS 'Execution End Date', 
+   OCFL.OcrCode AS 'Distribution Rule 1', 
+   OCFL.OcrCode2 AS 'Distribution Rule 2', 
+   OCFL.OcrCode3 AS 'Distribution Rule 3', 
+   OCFL.OcrCode4 AS 'Distribution Rule 4', 
+   OCFL.OcrCode5 AS 'Distribution Rule 5'
+FROM OCFL AS OCFL

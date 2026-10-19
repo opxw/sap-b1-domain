@@ -1,0 +1,22 @@
+SELECT
+   PRQ20.DocEntry AS 'Document Internal ID', 
+   PRQ20.ExpnsCode AS 'Freight Code', 
+   PRQ20.TotalLC AS 'Total', 
+   PRQ20.TotalFC AS 'Total (FC)', 
+   PRQ20.TotalSC AS 'Total (SC)', 
+   PRQ20.DistribM AS 'Distribution Method', 
+   PRQ20.DrawnLC AS 'Drawn Total', 
+   PRQ20.DrawnFC AS 'Drawn Total (FC)', 
+   PRQ20.DrawnSC AS 'Drawn Total (SC)', 
+   PRQ20.LineNum AS 'Line Number', 
+   PRQ20.BaseAbsEnt AS 'Base Abs. Entry', 
+   PRQ20.BaseType AS 'Base Document Type', 
+   PRQ20.BaseRef AS 'Base Document Reference', 
+   PRQ20.BaseLnNum AS 'Base Document Row No.', 
+   PRQ20.LogInstanc AS 'Log Instance', 
+   PRQ20.ObjectType AS 'Object Type', 
+   PRQ20.FixCurr AS 'Fixation Currency', 
+   PRQ20.AppliedLC AS 'Applied', 
+   PRQ20.AppliedFC AS 'Applied (FC)', 
+   PRQ20.AppliedSC AS 'Applied (SC)'
+FROM PRQ20 AS PRQ20

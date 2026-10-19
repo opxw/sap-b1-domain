@@ -1,0 +1,22 @@
+SELECT
+   CSI20.DocEntry AS 'Document Internal ID', 
+   CSI20.ExpnsCode AS 'Freight Code', 
+   CSI20.TotalLC AS 'Total', 
+   CSI20.TotalFC AS 'Total (FC)', 
+   CSI20.TotalSC AS 'Total (SC)', 
+   CSI20.DistribM AS 'Distribution Method', 
+   CSI20.DrawnLC AS 'Drawn Total', 
+   CSI20.DrawnFC AS 'Drawn Total (FC)', 
+   CSI20.DrawnSC AS 'Drawn Total (SC)', 
+   CSI20.LineNum AS 'Line Number', 
+   CSI20.BaseAbsEnt AS 'Base Abs. Entry', 
+   CSI20.BaseType AS 'Base Document Type', 
+   CSI20.BaseRef AS 'Base Document Reference', 
+   CSI20.BaseLnNum AS 'Base Document Row No.', 
+   CSI20.LogInstanc AS 'Log Instance', 
+   CSI20.ObjectType AS 'Object Type', 
+   CSI20.FixCurr AS 'Fixation Currency', 
+   CSI20.AppliedLC AS 'Applied', 
+   CSI20.AppliedFC AS 'Applied (FC)', 
+   CSI20.AppliedSC AS 'Applied (SC)'
+FROM CSI20 AS CSI20

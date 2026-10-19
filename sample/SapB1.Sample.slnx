@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="../src/SapB1.Db.csproj" />
+  <Project Path="db/SapB1.Sample.Db.csproj" />
+  <Project Path="dto/SapB1.Sample.Dto.csproj" />
+  <Project Path="services/SapB1.Sample.Services.csproj" />
+  <Project Path="presentation/SapB1.Sample.Api.csproj" />
+  <Project Path="tests/SapB1.Sample.Tests.csproj" />
+</Solution>

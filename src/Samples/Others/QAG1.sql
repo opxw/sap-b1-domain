@@ -1,0 +1,4 @@
+SELECT
+   QAG1.AUTHGRPID AS 'Query Authorization Group ID', 
+   QAG1.CATEGORYID AS 'Category ID'
+FROM QAG1 AS QAG1

@@ -1,0 +1,22 @@
+SELECT
+   PQT20.DocEntry AS 'Document Internal ID', 
+   PQT20.ExpnsCode AS 'Freight Code', 
+   PQT20.TotalLC AS 'Total', 
+   PQT20.TotalFC AS 'Total (FC)', 
+   PQT20.TotalSC AS 'Total (SC)', 
+   PQT20.DistribM AS 'Distribution Method', 
+   PQT20.DrawnLC AS 'Drawn Total', 
+   PQT20.DrawnFC AS 'Drawn Total (FC)', 
+   PQT20.DrawnSC AS 'Drawn Total (SC)', 
+   PQT20.LineNum AS 'Line Number', 
+   PQT20.BaseAbsEnt AS 'Base Abs. Entry', 
+   PQT20.BaseType AS 'Base Document Type', 
+   PQT20.BaseRef AS 'Base Document Reference', 
+   PQT20.BaseLnNum AS 'Base Document Row No.', 
+   PQT20.LogInstanc AS 'Log Instance', 
+   PQT20.ObjectType AS 'Object Type', 
+   PQT20.FixCurr AS 'Fixation Currency', 
+   PQT20.AppliedLC AS 'Applied', 
+   PQT20.AppliedFC AS 'Applied (FC)', 
+   PQT20.AppliedSC AS 'Applied (SC)'
+FROM PQT20 AS PQT20

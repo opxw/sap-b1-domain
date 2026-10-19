@@ -1,0 +1,21 @@
+SELECT
+   IPF2.DocEntry AS 'Landed Costs Internal ID', 
+   IPF2.LineNum AS 'Row Number', 
+   IPF2.AlcCode AS 'Cost Code', 
+   IPF2.OhType AS 'Load by', 
+   IPF2.CostSum AS 'Total Costs', 
+   IPF2.CostSumFC AS 'Total Costs (FC)', 
+   IPF2.Factor AS 'Factor', 
+   IPF2.CostType AS 'Cost Type', 
+   IPF2.Locked AS 'Locked', 
+   IPF2.LaCAllcAcc AS 'Landed Costs Alloc. Account', 
+   IPF2.CostSumSC AS 'Total Costs (SC)', 
+   IPF2.InCustCalc AS 'Included in Customs Calc', 
+   IPF2.OpenCost AS 'Open Costs', 
+   IPF2.OpenCostFC AS 'Open Costs (FC)', 
+   IPF2.OpenCostSC AS 'Open Costs (SC)', 
+   IPF2.AgentCode AS 'Subst. Code', 
+   IPF2.AgentName AS 'Subst. Name', 
+   IPF2.CostCateg AS 'Cost Category', 
+   IPF2.EncryptIV AS 'Encrypt IV'
+FROM IPF2 AS IPF2

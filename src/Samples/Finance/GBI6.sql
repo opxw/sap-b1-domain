@@ -1,0 +1,20 @@
+SELECT
+   GBI6.HistoryId AS 'History Key', 
+   GBI6.RowId AS 'Row Number', 
+   GBI6.AcctCode AS 'Account Code', 
+   GBI6.Currency AS 'Account Currency', 
+   GBI6.EvalGrp AS 'Group for Calculating', 
+   GBI6.PerBBal AS 'Period Begin Balance', 
+   GBI6.PerBQty AS 'Period Begin Quantity', 
+   GBI6.PerBFCBal AS 'Period Begin FC Balance', 
+   GBI6.CPDAmt AS 'Current Period Debit Amount', 
+   GBI6.CPDQty AS 'Current Period Debit Quantity', 
+   GBI6.CPDFCAmt AS 'Current Period Debit FC Amount', 
+   GBI6.CPCAmt AS 'Current Period Credit Amount', 
+   GBI6.CPCQty AS 'Current Period Credit Quantity', 
+   GBI6.CPCFCAmt AS 'Current Period Credit FC Amnt', 
+   GBI6.PerEBal AS 'Period End Balance', 
+   GBI6.PerEQty AS 'Period End Quantity', 
+   GBI6.PerEFCBal AS 'Period End FC Balance', 
+   GBI6.AcctPeriod AS 'Fiscal Month'
+FROM GBI6 AS GBI6

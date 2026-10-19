@@ -1,0 +1,23 @@
+SELECT
+   WTQ21.DocEntry AS 'Internal Number', 
+   WTQ21.ObjectType AS 'Object Type', 
+   WTQ21.LogInstanc AS 'Log Instance', 
+   WTQ21.RefType AS 'Reference Types', 
+   WTQ21.LineNum AS 'Line Number', 
+   WTQ21.RefDocEntr AS 'Referenced Internal Number', 
+   WTQ21.RefDocNum AS 'Referenced Document Number', 
+   WTQ21.ExtDocNum AS 'External Referenced Document Number', 
+   WTQ21.RefObjType AS 'Referenced Object Type', 
+   WTQ21.AccessKey AS 'Access Key', 
+   WTQ21.IssueDate AS 'Date of Issue', 
+   WTQ21.IssuerCNPJ AS 'Issuer CNPJ', 
+   WTQ21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   WTQ21.Model AS 'Fiscal Document Model', 
+   WTQ21.Series AS 'Fiscal Document Series', 
+   WTQ21.Number AS 'Fiscal Document Number', 
+   WTQ21.RefAccKey AS 'Referenced CT-e Access Key', 
+   WTQ21.RefAmount AS 'Referenced Amount', 
+   WTQ21.SubSeries AS 'Fiscal Document Subseries', 
+   WTQ21.Remark AS 'Remarks', 
+   WTQ21.LinkRefTyp AS 'Link Reference Type'
+FROM WTQ21 AS WTQ21

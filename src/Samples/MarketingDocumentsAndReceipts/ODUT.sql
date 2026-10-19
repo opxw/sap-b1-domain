@@ -1,0 +1,22 @@
+SELECT
+   ODUT.TermCode AS 'Dunning Term Code', 
+   ODUT.TermName AS 'Dunning Term Name', 
+   ODUT.GrpMethod AS 'Grouping Method', 
+   ODUT.YearDays AS 'Days in Year', 
+   ODUT.MonthDays AS 'Days in Month', 
+   ODUT.RemIntrst AS 'Calc. Interest Rem/Orig Sum', 
+   ODUT.XchgOrig AS 'Exchange Rate Orig/Current', 
+   ODUT.YearlyRate AS 'Yearly Interest Rate', 
+   ODUT.MaxLevel AS 'Max Dunning Level', 
+   ODUT.TotalFee AS 'All Total Fee', 
+   ODUT.FeeCurr AS 'All Fee Currency', 
+   ODUT.MinBalance AS 'All Min. Balance', 
+   ODUT.BalCurr AS 'All Balance Currency', 
+   ODUT.CalcIntr AS 'All Calc. Interest', 
+   ODUT.LetterFrmt AS 'All Letter Format', 
+   ODUT.HiLtrFrmt AS 'Apply Highest Letter Template', 
+   ODUT.DateCalInt AS 'Base Date for Interest Calc.', 
+   ODUT.AutoPost AS 'Automatic Posting', 
+   ODUT.IntrAcc AS 'Interest Account', 
+   ODUT.FeeAcc AS 'Fee Account'
+FROM ODUT AS ODUT

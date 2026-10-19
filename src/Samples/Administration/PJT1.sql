@@ -1,0 +1,22 @@
+SELECT
+   PJT1.DocEntry AS 'Internal Number', 
+   PJT1.StepCode AS 'Step Code', 
+   PJT1.Father AS 'Father Step Code', 
+   PJT1.VisOrder AS 'Visual Order', 
+   PJT1.Level AS 'Node Level', 
+   PJT1.StepName AS 'Step Name', 
+   PJT1.StepInfo AS 'Step Info', 
+   PJT1.StepNotes AS 'Step Notes', 
+   PJT1.StepLink AS 'Step Link to Menu ID', 
+   PJT1.StartDate AS 'Start Date', 
+   PJT1.EndDate AS 'End Date', 
+   PJT1.IsComplete AS 'Is Complete', 
+   PJT1.LogInstanc AS 'Log Instance', 
+   PJT1.Owner AS 'Owner', 
+   PJT1.Status AS 'Status', 
+   PJT1.Duration AS 'Duration', 
+   PJT1.PlanTime AS 'Planned Time', 
+   PJT1.AtcEntry AS 'Attachment Entry', 
+   PJT1.TotalPTime AS 'Total Planned Time', 
+   PJT1.QueryID AS 'Step Link Query ID'
+FROM PJT1 AS PJT1

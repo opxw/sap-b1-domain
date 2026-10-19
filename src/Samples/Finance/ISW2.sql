@@ -1,0 +1,21 @@
+SELECT
+   ISW2.WizAbsEnt AS 'Wizard Run Key', 
+   ISW2.ItemCode AS 'Item Code', 
+   ISW2.CommCode AS 'Commodity Code', 
+   ISW2.SerCode AS 'Service Code', 
+   ISW2.AddMUnit AS 'Additional Measure Unit', 
+   ISW2.FactorAM AS 'Factor Additional Measure', 
+   ISW2.OriRegSta AS 'Region of Origin (for Export)', 
+   ISW2.DstRegSta AS 'Destination Region (Import)', 
+   ISW2.CtryOrig AS 'Country/Region of Origin', 
+   ISW2.SerSupplM AS 'Service Supply Method', 
+   ISW2.SerPymMeth AS 'Service Payment Method', 
+   ISW2.ItemType AS 'Item Type', 
+   ISW2.ItemName AS 'Item Name', 
+   ISW2.DestRegCry AS 'Destination Country - Region', 
+   ISW2.OrigRegCry AS 'Origin Region Country', 
+   ISW2.UseWeight AS 'Use Wt in Add. Measure Calc.', 
+   ISW2.StatCode AS 'Statistical Code', 
+   ISW2.NatOfTrans AS 'Nature of Transaction', 
+   ISW2.StatProc AS 'Statistical Procedure'
+FROM ISW2 AS ISW2

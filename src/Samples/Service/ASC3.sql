@@ -1,0 +1,23 @@
+SELECT
+   ASC3.SrcvCallID AS 'Service Call No.', 
+   ASC3.Line AS 'Row', 
+   ASC3.ItemCode AS 'Item Number', 
+   ASC3.ItemName AS 'Item Description', 
+   ASC3.HourFrom AS 'Delivered', 
+   ASC3.HourTo AS 'Returned', 
+   ASC3.Quantity AS 'Quantity', 
+   ASC3.Bill AS 'Bill', 
+   ASC3.QtyToBill AS 'Quantity to Bill', 
+   ASC3.QtyToInv AS 'Invoiced Qty', 
+   ASC3.SaleUnits AS 'Sale Units', 
+   ASC3.ObjectType AS 'Object Type', 
+   ASC3.LogInstanc AS 'Log Instance', 
+   ASC3.UserSign AS 'User Signature', 
+   ASC3.CreateDate AS 'Creation Date', 
+   ASC3.UserSign2 AS 'User Signature 2', 
+   ASC3.UpdateDate AS 'Date of Update', 
+   ASC3.VisOrder AS 'Visual Order', 
+   ASC3.Deliverd AS 'Delivered', 
+   ASC3.Returned AS 'Returned', 
+   ASC3.EncryptIV AS 'Encrypt IV'
+FROM ASC3 AS ASC3

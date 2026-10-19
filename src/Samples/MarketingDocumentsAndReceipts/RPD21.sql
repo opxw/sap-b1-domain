@@ -1,0 +1,23 @@
+SELECT
+   RPD21.DocEntry AS 'Internal Number', 
+   RPD21.ObjectType AS 'Object Type', 
+   RPD21.LogInstanc AS 'Log Instance', 
+   RPD21.RefType AS 'Reference Types', 
+   RPD21.LineNum AS 'Line Number', 
+   RPD21.RefDocEntr AS 'Referenced Internal Number', 
+   RPD21.RefDocNum AS 'Referenced Document Number', 
+   RPD21.ExtDocNum AS 'External Referenced Document Number', 
+   RPD21.RefObjType AS 'Referenced Object Type', 
+   RPD21.AccessKey AS 'Access Key', 
+   RPD21.IssueDate AS 'Date of Issue', 
+   RPD21.IssuerCNPJ AS 'Issuer CNPJ', 
+   RPD21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   RPD21.Model AS 'Fiscal Document Model', 
+   RPD21.Series AS 'Fiscal Document Series', 
+   RPD21.Number AS 'Fiscal Document Number', 
+   RPD21.RefAccKey AS 'Referenced CT-e Access Key', 
+   RPD21.RefAmount AS 'Referenced Amount', 
+   RPD21.SubSeries AS 'Fiscal Document Subseries', 
+   RPD21.Remark AS 'Remarks', 
+   RPD21.LinkRefTyp AS 'Link Reference Type'
+FROM RPD21 AS RPD21

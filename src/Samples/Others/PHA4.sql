@@ -1,0 +1,22 @@
+SELECT
+   PHA4.AbsEntry AS 'Internal Key', 
+   PHA4.LineID AS 'Row No.', 
+   PHA4.StageID AS 'Stage ID', 
+   PHA4.TYP AS 'Document Type', 
+   PHA4.DOCNUM AS 'Document Number', 
+   PHA4.DocEntry AS 'Document Abs. Entry', 
+   PHA4.DocDate AS 'Document Date', 
+   PHA4.Total AS 'Total', 
+   PHA4.LineNum AS 'Line Number', 
+   PHA4.Status AS 'Line status', 
+   PHA4.LogInstanc AS 'Log Instance', 
+   PHA4.AmountCat AS 'Category to which we will apply the amount from Total', 
+   PHA4.Categorize AS 'Category Open Amount/Invoiced A/R, A/P to which we will apply the amount from journal entry', 
+   PHA4.Operation AS 'Operation which we will apply to the amount from the total', 
+   PHA4.Chargeable AS 'Chargeable [Yes/No]', 
+   PHA4.Charged AS 'Charged', 
+   PHA4.ChargedQty AS 'Charged Quantity', 
+   PHA4.DocType AS 'Document Type', 
+   PHA4.EncryptIV AS 'Encrypt IV', 
+   PHA4.PartTotal AS 'Partially Invoiced Total'
+FROM PHA4 AS PHA4

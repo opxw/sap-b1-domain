@@ -1,0 +1,20 @@
+SELECT
+   RDR18.DocEntry AS 'Document Internal ID', 
+   RDR18.LineNum AS 'Row Number', 
+   RDR18.LogInstanc AS 'Log Instance', 
+   RDR18.ObjectType AS 'Object Type', 
+   RDR18.ExpDocType AS 'Type of Exportation Document', 
+   RDR18.ExpDeclNum AS 'Exportation Declaration Number', 
+   RDR18.ExpDeclDat AS 'Exportation Declaration Date', 
+   RDR18.ExpNature AS 'Nature of Exportation', 
+   RDR18.ExpRegNum AS 'Number of Exportation Registry', 
+   RDR18.ExpRegDate AS 'Date of Exportation Registry', 
+   RDR18.LadBillNum AS 'Bill of Lading Number', 
+   RDR18.LadBillDat AS 'Date of Bill of Lading', 
+   RDR18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   RDR18.LadBillTyp AS 'Type of Bill of Lading', 
+   RDR18.DrawSReg AS 'Drawback - Suspension Regime', 
+   RDR18.NatureExp AS 'Nature of Export', 
+   RDR18.QultExpItm AS 'Quantity of Exported Items', 
+   RDR18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM RDR18 AS RDR18

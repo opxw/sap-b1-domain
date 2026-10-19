@@ -1,0 +1,21 @@
+SELECT
+   AWH1.WTCode AS 'WTax Code', 
+   AWH1.EffecDate AS 'Effective from', 
+   AWH1.Rate AS 'Rate', 
+   AWH1.LogInstanc AS 'Log Instance', 
+   AWH1.TdsRate AS 'TDS Rate', 
+   AWH1.SurRate AS 'Surcharge Rate', 
+   AWH1.CessRate AS 'Cess Rate', 
+   AWH1.HscRate AS 'HSC Rate', 
+   AWH1.PmntTerms AS 'Payment Terms', 
+   AWH1.LineNum AS 'Row Number', 
+   AWH1.IgstRate AS 'IGST Rate', 
+   AWH1.CgstRate AS 'CGST Rate', 
+   AWH1.SgstRate AS 'SGST Rate', 
+   AWH1.UtgstRate AS 'UTGST Rate', 
+   AWH1.CsgstRate AS 'Cess GST Rate', 
+   AWH1.UomEntry AS 'UoM Entry', 
+   AWH1.UoMCode AS 'UoM Code', 
+   AWH1.FixedAmnt AS 'Fixed Amount', 
+   AWH1.Currency AS 'Fixed Amount Currency'
+FROM AWH1 AS AWH1

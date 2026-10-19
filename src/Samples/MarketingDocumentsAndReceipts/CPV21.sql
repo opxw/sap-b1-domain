@@ -1,0 +1,23 @@
+SELECT
+   CPV21.DocEntry AS 'Internal Number', 
+   CPV21.ObjectType AS 'Object Type', 
+   CPV21.LogInstanc AS 'Log Instance', 
+   CPV21.RefType AS 'Reference Types', 
+   CPV21.LineNum AS 'Line Number', 
+   CPV21.RefDocEntr AS 'Referenced Internal Number', 
+   CPV21.RefDocNum AS 'Referenced Document Number', 
+   CPV21.ExtDocNum AS 'External Referenced Document Number', 
+   CPV21.RefObjType AS 'Referenced Object Type', 
+   CPV21.AccessKey AS 'Access Key', 
+   CPV21.IssueDate AS 'Date of Issue', 
+   CPV21.IssuerCNPJ AS 'Issuer CNPJ', 
+   CPV21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   CPV21.Model AS 'Fiscal Document Model', 
+   CPV21.Series AS 'Fiscal Document Series', 
+   CPV21.Number AS 'Fiscal Document Number', 
+   CPV21.RefAccKey AS 'Referenced CT-e Access Key', 
+   CPV21.RefAmount AS 'Referenced Amount', 
+   CPV21.SubSeries AS 'Fiscal Document Subseries', 
+   CPV21.Remark AS 'Remarks', 
+   CPV21.LinkRefTyp AS 'Link Reference Type'
+FROM CPV21 AS CPV21

@@ -1,0 +1,22 @@
+SELECT
+   CSV20.DocEntry AS 'Document Internal ID', 
+   CSV20.ExpnsCode AS 'Freight Code', 
+   CSV20.TotalLC AS 'Total', 
+   CSV20.TotalFC AS 'Total (FC)', 
+   CSV20.TotalSC AS 'Total (SC)', 
+   CSV20.DistribM AS 'Distribution Method', 
+   CSV20.DrawnLC AS 'Drawn Total', 
+   CSV20.DrawnFC AS 'Drawn Total (FC)', 
+   CSV20.DrawnSC AS 'Drawn Total (SC)', 
+   CSV20.LineNum AS 'Line Number', 
+   CSV20.BaseAbsEnt AS 'Base Abs. Entry', 
+   CSV20.BaseType AS 'Base Document Type', 
+   CSV20.BaseRef AS 'Base Document Reference', 
+   CSV20.BaseLnNum AS 'Base Document Row No.', 
+   CSV20.LogInstanc AS 'Log Instance', 
+   CSV20.ObjectType AS 'Object Type', 
+   CSV20.FixCurr AS 'Fixation Currency', 
+   CSV20.AppliedLC AS 'Applied', 
+   CSV20.AppliedFC AS 'Applied (FC)', 
+   CSV20.AppliedSC AS 'Applied (SC)'
+FROM CSV20 AS CSV20

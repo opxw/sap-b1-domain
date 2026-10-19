@@ -1,0 +1,20 @@
+SELECT
+   IVLG.AbsEntry AS 'Internal Unique Key', 
+   IVLG.UtilVer AS 'Inventory Revaluation Utility', 
+   IVLG.B1Ver AS 'B1 Version', 
+   IVLG.SrcDBVer AS 'Source Database Version', 
+   IVLG.DestDBName AS 'Destination Database Name', 
+   IVLG.DestDBPath AS 'Destination Database Path', 
+   IVLG.FromDoc AS 'Document From', 
+   IVLG.FromSysDat AS 'System Date From', 
+   IVLG.ToDoc AS 'Last calculated document', 
+   IVLG.ToSysDate AS 'To System Date', 
+   IVLG.CustDbUpd AS 'Customer DB was updated', 
+   IVLG.HistTblCrt AS 'History tables created', 
+   IVLG.SuccRecalc AS 'Successful recalculation', 
+   IVLG.Comment AS 'Recalculation Comment', 
+   IVLG.EnblFromTo AS 'Enabling From-To Function', 
+   IVLG.StrFld AS 'General String Field', 
+   IVLG.NumFld AS 'Include Custom from OIPF', 
+   IVLG.LoadCust AS 'Load Customs on Item Value'
+FROM IVLG AS IVLG

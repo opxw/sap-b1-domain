@@ -1,0 +1,23 @@
+SELECT
+   RIN21.DocEntry AS 'Internal Number', 
+   RIN21.ObjectType AS 'Object Type', 
+   RIN21.LogInstanc AS 'Log Instance', 
+   RIN21.RefType AS 'Reference Types', 
+   RIN21.LineNum AS 'Line Number', 
+   RIN21.RefDocEntr AS 'Referenced Internal Number', 
+   RIN21.RefDocNum AS 'Referenced Document Number', 
+   RIN21.ExtDocNum AS 'External Referenced Document Number', 
+   RIN21.RefObjType AS 'Referenced Object Type', 
+   RIN21.AccessKey AS 'Access Key', 
+   RIN21.IssueDate AS 'Date of Issue', 
+   RIN21.IssuerCNPJ AS 'Issuer CNPJ', 
+   RIN21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   RIN21.Model AS 'Fiscal Document Model', 
+   RIN21.Series AS 'Fiscal Document Series', 
+   RIN21.Number AS 'Fiscal Document Number', 
+   RIN21.RefAccKey AS 'Referenced CT-e Access Key', 
+   RIN21.RefAmount AS 'Referenced Amount', 
+   RIN21.SubSeries AS 'Fiscal Document Subseries', 
+   RIN21.Remark AS 'Remarks', 
+   RIN21.LinkRefTyp AS 'Link Reference Type'
+FROM RIN21 AS RIN21

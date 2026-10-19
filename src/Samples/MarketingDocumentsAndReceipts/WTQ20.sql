@@ -1,0 +1,22 @@
+SELECT
+   WTQ20.DocEntry AS 'Document Internal ID', 
+   WTQ20.ExpnsCode AS 'Freight Code', 
+   WTQ20.TotalLC AS 'Total', 
+   WTQ20.TotalFC AS 'Total (FC)', 
+   WTQ20.TotalSC AS 'Total (SC)', 
+   WTQ20.DistribM AS 'Distribution Method', 
+   WTQ20.DrawnLC AS 'Drawn Total', 
+   WTQ20.DrawnFC AS 'Drawn Total (FC)', 
+   WTQ20.DrawnSC AS 'Drawn Total (SC)', 
+   WTQ20.LineNum AS 'Line Number', 
+   WTQ20.BaseAbsEnt AS 'Base Abs. Entry', 
+   WTQ20.BaseType AS 'Base Document Type', 
+   WTQ20.BaseRef AS 'Base Document Reference', 
+   WTQ20.BaseLnNum AS 'Base Document Row No.', 
+   WTQ20.LogInstanc AS 'Log Instance', 
+   WTQ20.ObjectType AS 'Object Type', 
+   WTQ20.FixCurr AS 'Fixation Currency', 
+   WTQ20.AppliedLC AS 'Applied', 
+   WTQ20.AppliedFC AS 'Applied (FC)', 
+   WTQ20.AppliedSC AS 'Applied (SC)'
+FROM WTQ20 AS WTQ20

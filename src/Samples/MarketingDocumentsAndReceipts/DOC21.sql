@@ -1,0 +1,23 @@
+SELECT
+   DOC21.DocEntry AS 'Internal Number', 
+   DOC21.ObjectType AS 'Object Type', 
+   DOC21.LogInstanc AS 'Log Instance', 
+   DOC21.RefType AS 'Reference Types', 
+   DOC21.LineNum AS 'Line Number', 
+   DOC21.RefDocEntr AS 'Referenced Internal Number', 
+   DOC21.RefDocNum AS 'Referenced Document Number', 
+   DOC21.ExtDocNum AS 'External Referenced Document Number', 
+   DOC21.RefObjType AS 'Referenced Object Type', 
+   DOC21.AccessKey AS 'Access Key', 
+   DOC21.IssueDate AS 'Date of Issue', 
+   DOC21.IssuerCNPJ AS 'Issuer CNPJ', 
+   DOC21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   DOC21.Model AS 'Fiscal Document Model', 
+   DOC21.Series AS 'Fiscal Document Series', 
+   DOC21.Number AS 'Fiscal Document Number', 
+   DOC21.RefAccKey AS 'Referenced CT-e Access Key', 
+   DOC21.RefAmount AS 'Referenced Amount', 
+   DOC21.SubSeries AS 'Fiscal Document Subseries', 
+   DOC21.Remark AS 'Remarks', 
+   DOC21.LinkRefTyp AS 'Link Reference Type'
+FROM DOC21 AS DOC21

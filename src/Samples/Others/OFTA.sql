@@ -1,0 +1,9 @@
+SELECT
+   OFTA.ID AS 'ID', 
+   OFTA.BOTYPE AS 'BO Type', 
+   OFTA.DOCTYPE AS 'Doc Type', 
+   OFTA.TEMPFORMAT AS 'Template Format', 
+   OFTA.USER_ID AS 'User ID', 
+   OFTA.ACTIONTIME AS 'Action Time', 
+   OFTA.ACTIONTYPE AS 'Action Type'
+FROM OFTA AS OFTA

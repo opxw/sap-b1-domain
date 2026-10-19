@@ -1,0 +1,23 @@
+SELECT
+   AMR2.DocEntry AS 'Document Internal ID', 
+   AMR2.BaseLine AS 'Base Row Number', 
+   AMR2.LineNum AS 'Row Number', 
+   AMR2.Quantity AS 'Quantity', 
+   AMR2.Price AS 'Price', 
+   AMR2.LineTotal AS 'Row Total', 
+   AMR2.RToStock AS 'Reval. Amount Posted to Stock', 
+   AMR2.RActPrice AS 'Inventory Reval. Current Cost', 
+   AMR2.INMTransNm AS 'INM Transaction Number', 
+   AMR2.INMInst AS 'INM Instance', 
+   AMR2.INMTransTy AS 'INM Transaction Type', 
+   AMR2.INMCreatBy AS 'INM Document Key Created', 
+   AMR2.INMBaseRef AS 'INM Base Reference', 
+   AMR2.INMDocDate AS 'INM Posting Date', 
+   AMR2.INMOpenQty AS 'INM Open Quantity', 
+   AMR2.ObjType AS 'Object Type', 
+   AMR2.LogInstanc AS 'Log Instance', 
+   AMR2.IVLTransSe AS 'IVL Transaction Sequence No.', 
+   AMR2.IVLLayerID AS 'IVL Layer ID', 
+   AMR2.INMLineNum AS 'INM Row Number in Document', 
+   AMR2.INMSubLine AS 'INM Subrow Number'
+FROM AMR2 AS AMR2

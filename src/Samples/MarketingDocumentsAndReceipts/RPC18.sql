@@ -1,0 +1,20 @@
+SELECT
+   RPC18.DocEntry AS 'Document Internal ID', 
+   RPC18.LineNum AS 'Row Number', 
+   RPC18.LogInstanc AS 'Log Instance', 
+   RPC18.ObjectType AS 'Object Type', 
+   RPC18.ExpDocType AS 'Type of Exportation Document', 
+   RPC18.ExpDeclNum AS 'Exportation Declaration Number', 
+   RPC18.ExpDeclDat AS 'Exportation Declaration Date', 
+   RPC18.ExpNature AS 'Nature of Exportation', 
+   RPC18.ExpRegNum AS 'Number of Exportation Registry', 
+   RPC18.ExpRegDate AS 'Date of Exportation Registry', 
+   RPC18.LadBillNum AS 'Bill of Lading Number', 
+   RPC18.LadBillDat AS 'Date of Bill of Lading', 
+   RPC18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   RPC18.LadBillTyp AS 'Type of Bill of Lading', 
+   RPC18.DrawSReg AS 'Drawback - Suspension Regime', 
+   RPC18.NatureExp AS 'Nature of Export', 
+   RPC18.QultExpItm AS 'Quantity of Exported Items', 
+   RPC18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM RPC18 AS RPC18

@@ -1,0 +1,20 @@
+SELECT
+   DOC18.DocEntry AS 'Document Internal ID', 
+   DOC18.LineNum AS 'Row Number', 
+   DOC18.LogInstanc AS 'Log Instance', 
+   DOC18.ObjectType AS 'Object Type', 
+   DOC18.ExpDocType AS 'Type of Exportation Document', 
+   DOC18.ExpDeclNum AS 'Exportation Declaration Number', 
+   DOC18.ExpDeclDat AS 'Exportation Declaration Date', 
+   DOC18.ExpNature AS 'Nature of Exportation', 
+   DOC18.ExpRegNum AS 'Number of Exportation Registry', 
+   DOC18.ExpRegDate AS 'Date of Exportation Registry', 
+   DOC18.LadBillNum AS 'Bill of Lading Number', 
+   DOC18.LadBillDat AS 'Date of Bill of Lading', 
+   DOC18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   DOC18.LadBillTyp AS 'Type of Bill of Lading', 
+   DOC18.DrawSReg AS 'Drawback - Suspension Regime', 
+   DOC18.NatureExp AS 'Nature of Export', 
+   DOC18.QultExpItm AS 'Quantity of Exported Items', 
+   DOC18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM DOC18 AS DOC18

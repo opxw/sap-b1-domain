@@ -1,0 +1,23 @@
+SELECT
+   POR21.DocEntry AS 'Internal Number', 
+   POR21.ObjectType AS 'Object Type', 
+   POR21.LogInstanc AS 'Log Instance', 
+   POR21.RefType AS 'Reference Types', 
+   POR21.LineNum AS 'Line Number', 
+   POR21.RefDocEntr AS 'Referenced Internal Number', 
+   POR21.RefDocNum AS 'Referenced Document Number', 
+   POR21.ExtDocNum AS 'External Referenced Document Number', 
+   POR21.RefObjType AS 'Referenced Object Type', 
+   POR21.AccessKey AS 'Access Key', 
+   POR21.IssueDate AS 'Date of Issue', 
+   POR21.IssuerCNPJ AS 'Issuer CNPJ', 
+   POR21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   POR21.Model AS 'Fiscal Document Model', 
+   POR21.Series AS 'Fiscal Document Series', 
+   POR21.Number AS 'Fiscal Document Number', 
+   POR21.RefAccKey AS 'Referenced CT-e Access Key', 
+   POR21.RefAmount AS 'Referenced Amount', 
+   POR21.SubSeries AS 'Fiscal Document Subseries', 
+   POR21.Remark AS 'Remarks', 
+   POR21.LinkRefTyp AS 'Link Reference Type'
+FROM POR21 AS POR21

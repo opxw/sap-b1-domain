@@ -1,0 +1,22 @@
+SELECT
+   ODPA.Code AS 'Code', 
+   ODPA.Descr AS 'Description', 
+   ODPA.DirectDpr AS 'Direct Depreciation', 
+   ODPA.RetMeth AS 'Retirement Method', 
+   ODPA.AreaType AS 'Area Type', 
+   ODPA.DrvdArea AS 'Derived Area', 
+   ODPA.DataSource AS 'Data Source', 
+   ODPA.UserSign AS 'User Signature', 
+   ODPA.LogInstanc AS 'Log Instance', 
+   ODPA.CreateDate AS 'Creation Date', 
+   ODPA.UserSign2 AS 'Updating User', 
+   ODPA.UpdateDate AS 'Date of Update', 
+   ODPA.MainArea AS 'Main Booking Area', 
+   ODPA.CreditCtrl AS 'Tax Credit Control', 
+   ODPA.TaxType AS 'Tax Type', 
+   ODPA.DirRevPost AS 'Direct Revenue Posting', 
+   ODPA.SnapshotId AS 'Snapshot ID', 
+   ODPA.BpTaxCorr AS 'BP for Tax Correction', 
+   ODPA.ItmTaxCorr AS 'Item for Tax Correction', 
+   ODPA.UsgTaxCorr AS 'Usage for Tax Correction'
+FROM ODPA AS ODPA

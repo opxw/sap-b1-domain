@@ -1,0 +1,23 @@
+SELECT
+   QUT21.DocEntry AS 'Internal Number', 
+   QUT21.ObjectType AS 'Object Type', 
+   QUT21.LogInstanc AS 'Log Instance', 
+   QUT21.RefType AS 'Reference Types', 
+   QUT21.LineNum AS 'Line Number', 
+   QUT21.RefDocEntr AS 'Referenced Internal Number', 
+   QUT21.RefDocNum AS 'Referenced Document Number', 
+   QUT21.ExtDocNum AS 'External Referenced Document Number', 
+   QUT21.RefObjType AS 'Referenced Object Type', 
+   QUT21.AccessKey AS 'Access Key', 
+   QUT21.IssueDate AS 'Date of Issue', 
+   QUT21.IssuerCNPJ AS 'Issuer CNPJ', 
+   QUT21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   QUT21.Model AS 'Fiscal Document Model', 
+   QUT21.Series AS 'Fiscal Document Series', 
+   QUT21.Number AS 'Fiscal Document Number', 
+   QUT21.RefAccKey AS 'Referenced CT-e Access Key', 
+   QUT21.RefAmount AS 'Referenced Amount', 
+   QUT21.SubSeries AS 'Fiscal Document Subseries', 
+   QUT21.Remark AS 'Remarks', 
+   QUT21.LinkRefTyp AS 'Link Reference Type'
+FROM QUT21 AS QUT21

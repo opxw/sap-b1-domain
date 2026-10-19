@@ -1,0 +1,23 @@
+SELECT
+   VRT2.TxInvRptNo AS 'Tax Invoice Report No.', 
+   VRT2.GridRow AS 'Grid Row Number', 
+   VRT2.BPLId AS 'Business Place ID', 
+   VRT2.BPCode AS 'BP Code', 
+   VRT2.BPName AS 'BP Name', 
+   VRT2.DocDate AS 'Doc. Date', 
+   VRT2.ItemNo AS 'Item Number', 
+   VRT2.ItemDes AS 'Item Description', 
+   VRT2.TaxCode AS 'Tax Code', 
+   VRT2.ItemQty AS 'Item Quantity', 
+   VRT2.ItemPrice AS 'Item Price', 
+   VRT2.BaseAmt AS 'Base Amount', 
+   VRT2.TaxAmt AS 'Tax Amount', 
+   VRT2.LineType AS 'Row Type', 
+   VRT2.DocEntry AS 'Unique Document ID', 
+   VRT2.DocType AS 'Document Type', 
+   VRT2.LineNum AS 'Item Row Number', 
+   VRT2.Currency AS 'Currency', 
+   VRT2.Remark AS 'Remarks', 
+   VRT2.LegacyData AS 'Legacy Data', 
+   VRT2.Quantity AS 'Quantity'
+FROM VRT2 AS VRT2

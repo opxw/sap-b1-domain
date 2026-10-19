@@ -1,0 +1,3 @@
+SELECT
+   MUSR.userCode AS ''
+FROM MUSR AS MUSR

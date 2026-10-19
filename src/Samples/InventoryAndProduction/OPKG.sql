@@ -1,0 +1,22 @@
+SELECT
+   OPKG.PkgCode AS 'Code', 
+   OPKG.PkgType AS 'Type', 
+   OPKG.Length1 AS 'Length 1', 
+   OPKG.Len1Unit AS 'Unit of Length 1', 
+   OPKG.length2 AS 'Length 2', 
+   OPKG.Len2Unit AS 'Unit of Length 2', 
+   OPKG.Width1 AS 'Width 1', 
+   OPKG.Wdth1Unit AS 'Unit of Width 1', 
+   OPKG.Width2 AS 'Width 2', 
+   OPKG.Wdth2Unit AS 'Unit of Width 2', 
+   OPKG.Height1 AS 'Height 1', 
+   OPKG.Hght1Unit AS 'Unit of Height 1', 
+   OPKG.Height2 AS 'Height 2', 
+   OPKG.Hght2Unit AS 'Unit of Height 2', 
+   OPKG.Volume AS 'Volume', 
+   OPKG.VolUnit AS 'Volume UoM', 
+   OPKG.Weight1 AS 'Weight 1', 
+   OPKG.WghtUnit AS 'Weight UoM', 
+   OPKG.Weight2 AS 'Weight 2', 
+   OPKG.Wght2Unit AS 'Unit of Weight 2'
+FROM OPKG AS OPKG

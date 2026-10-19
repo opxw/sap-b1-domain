@@ -1,0 +1,22 @@
+SELECT
+   DPI20.DocEntry AS 'Document Internal ID', 
+   DPI20.ExpnsCode AS 'Freight Code', 
+   DPI20.TotalLC AS 'Total', 
+   DPI20.TotalFC AS 'Total (FC)', 
+   DPI20.TotalSC AS 'Total (SC)', 
+   DPI20.DistribM AS 'Distribution Method', 
+   DPI20.DrawnLC AS 'Drawn Total', 
+   DPI20.DrawnFC AS 'Drawn Total (FC)', 
+   DPI20.DrawnSC AS 'Drawn Total (SC)', 
+   DPI20.LineNum AS 'Line Number', 
+   DPI20.BaseAbsEnt AS 'Base Abs. Entry', 
+   DPI20.BaseType AS 'Base Document Type', 
+   DPI20.BaseRef AS 'Base Document Reference', 
+   DPI20.BaseLnNum AS 'Base Document Row No.', 
+   DPI20.LogInstanc AS 'Log Instance', 
+   DPI20.ObjectType AS 'Object Type', 
+   DPI20.FixCurr AS 'Fixation Currency', 
+   DPI20.AppliedLC AS 'Applied', 
+   DPI20.AppliedFC AS 'Applied (FC)', 
+   DPI20.AppliedSC AS 'Applied (SC)'
+FROM DPI20 AS DPI20

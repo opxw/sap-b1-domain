@@ -1,0 +1,22 @@
+SELECT
+   CPV20.DocEntry AS 'Document Internal ID', 
+   CPV20.ExpnsCode AS 'Freight Code', 
+   CPV20.TotalLC AS 'Total', 
+   CPV20.TotalFC AS 'Total (FC)', 
+   CPV20.TotalSC AS 'Total (SC)', 
+   CPV20.DistribM AS 'Distribution Method', 
+   CPV20.DrawnLC AS 'Drawn Total', 
+   CPV20.DrawnFC AS 'Drawn Total (FC)', 
+   CPV20.DrawnSC AS 'Drawn Total (SC)', 
+   CPV20.LineNum AS 'Line Number', 
+   CPV20.BaseAbsEnt AS 'Base Abs. Entry', 
+   CPV20.BaseType AS 'Base Document Type', 
+   CPV20.BaseRef AS 'Base Document Reference', 
+   CPV20.BaseLnNum AS 'Base Document Row No.', 
+   CPV20.LogInstanc AS 'Log Instance', 
+   CPV20.ObjectType AS 'Object Type', 
+   CPV20.FixCurr AS 'Fixation Currency', 
+   CPV20.AppliedLC AS 'Applied', 
+   CPV20.AppliedFC AS 'Applied (FC)', 
+   CPV20.AppliedSC AS 'Applied (SC)'
+FROM CPV20 AS CPV20

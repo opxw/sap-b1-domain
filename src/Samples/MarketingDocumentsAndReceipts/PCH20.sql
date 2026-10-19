@@ -1,0 +1,22 @@
+SELECT
+   PCH20.DocEntry AS 'Document Internal ID', 
+   PCH20.ExpnsCode AS 'Freight Code', 
+   PCH20.TotalLC AS 'Total', 
+   PCH20.TotalFC AS 'Total (FC)', 
+   PCH20.TotalSC AS 'Total (SC)', 
+   PCH20.DistribM AS 'Distribution Method', 
+   PCH20.DrawnLC AS 'Drawn Total', 
+   PCH20.DrawnFC AS 'Drawn Total (FC)', 
+   PCH20.DrawnSC AS 'Drawn Total (SC)', 
+   PCH20.LineNum AS 'Line Number', 
+   PCH20.BaseAbsEnt AS 'Base Abs. Entry', 
+   PCH20.BaseType AS 'Base Document Type', 
+   PCH20.BaseRef AS 'Base Document Reference', 
+   PCH20.BaseLnNum AS 'Base Document Row No.', 
+   PCH20.LogInstanc AS 'Log Instance', 
+   PCH20.ObjectType AS 'Object Type', 
+   PCH20.FixCurr AS 'Fixation Currency', 
+   PCH20.AppliedLC AS 'Applied', 
+   PCH20.AppliedFC AS 'Applied (FC)', 
+   PCH20.AppliedSC AS 'Applied (SC)'
+FROM PCH20 AS PCH20

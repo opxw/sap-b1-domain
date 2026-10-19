@@ -1,0 +1,22 @@
+SELECT
+   RIN20.DocEntry AS 'Document Internal ID', 
+   RIN20.ExpnsCode AS 'Freight Code', 
+   RIN20.TotalLC AS 'Total', 
+   RIN20.TotalFC AS 'Total (FC)', 
+   RIN20.TotalSC AS 'Total (SC)', 
+   RIN20.DistribM AS 'Distribution Method', 
+   RIN20.DrawnLC AS 'Drawn Total', 
+   RIN20.DrawnFC AS 'Drawn Total (FC)', 
+   RIN20.DrawnSC AS 'Drawn Total (SC)', 
+   RIN20.LineNum AS 'Line Number', 
+   RIN20.BaseAbsEnt AS 'Base Abs. Entry', 
+   RIN20.BaseType AS 'Base Document Type', 
+   RIN20.BaseRef AS 'Base Document Reference', 
+   RIN20.BaseLnNum AS 'Base Document Row No.', 
+   RIN20.LogInstanc AS 'Log Instance', 
+   RIN20.ObjectType AS 'Object Type', 
+   RIN20.FixCurr AS 'Fixation Currency', 
+   RIN20.AppliedLC AS 'Applied', 
+   RIN20.AppliedFC AS 'Applied (FC)', 
+   RIN20.AppliedSC AS 'Applied (SC)'
+FROM RIN20 AS RIN20

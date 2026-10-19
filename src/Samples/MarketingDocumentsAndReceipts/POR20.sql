@@ -1,0 +1,22 @@
+SELECT
+   POR20.DocEntry AS 'Document Internal ID', 
+   POR20.ExpnsCode AS 'Freight Code', 
+   POR20.TotalLC AS 'Total', 
+   POR20.TotalFC AS 'Total (FC)', 
+   POR20.TotalSC AS 'Total (SC)', 
+   POR20.DistribM AS 'Distribution Method', 
+   POR20.DrawnLC AS 'Drawn Total', 
+   POR20.DrawnFC AS 'Drawn Total (FC)', 
+   POR20.DrawnSC AS 'Drawn Total (SC)', 
+   POR20.LineNum AS 'Line Number', 
+   POR20.BaseAbsEnt AS 'Base Abs. Entry', 
+   POR20.BaseType AS 'Base Document Type', 
+   POR20.BaseRef AS 'Base Document Reference', 
+   POR20.BaseLnNum AS 'Base Document Row No.', 
+   POR20.LogInstanc AS 'Log Instance', 
+   POR20.ObjectType AS 'Object Type', 
+   POR20.FixCurr AS 'Fixation Currency', 
+   POR20.AppliedLC AS 'Applied', 
+   POR20.AppliedFC AS 'Applied (FC)', 
+   POR20.AppliedSC AS 'Applied (SC)'
+FROM POR20 AS POR20

@@ -1,0 +1,22 @@
+SELECT
+   APJ1.DocEntry AS 'Internal Number', 
+   APJ1.StepCode AS 'Step Code', 
+   APJ1.Father AS 'Father Step Code', 
+   APJ1.VisOrder AS 'Visual Order', 
+   APJ1.Level AS 'Node Level', 
+   APJ1.StepName AS 'Step Name', 
+   APJ1.StepInfo AS 'Step Info', 
+   APJ1.StepNotes AS 'Step Notes', 
+   APJ1.StepLink AS 'Step Link to Menu ID', 
+   APJ1.StartDate AS 'Start Date', 
+   APJ1.EndDate AS 'End Date', 
+   APJ1.IsComplete AS 'Is Complete', 
+   APJ1.LogInstanc AS 'Log Instance', 
+   APJ1.Owner AS 'Owner', 
+   APJ1.Status AS 'Status', 
+   APJ1.Duration AS 'Duration', 
+   APJ1.PlanTime AS 'Planned Time', 
+   APJ1.AtcEntry AS 'Attachment Entry', 
+   APJ1.TotalPTime AS 'Total Planned Time', 
+   APJ1.QueryID AS 'Step Link Query ID'
+FROM APJ1 AS APJ1

@@ -1,0 +1,20 @@
+SELECT
+   SFI18.DocEntry AS 'Document Internal ID', 
+   SFI18.LineNum AS 'Row Number', 
+   SFI18.LogInstanc AS 'Log Instance', 
+   SFI18.ObjectType AS 'Object Type', 
+   SFI18.ExpDocType AS 'Type of Export Document', 
+   SFI18.ExpDeclNum AS 'Exportation Declaration Number', 
+   SFI18.ExpDeclDat AS 'Exportation Declaration Date', 
+   SFI18.ExpNature AS 'Nature of Exportation', 
+   SFI18.ExpRegNum AS 'Number of Exportation Registry', 
+   SFI18.ExpRegDate AS 'Date of Exportation Registry', 
+   SFI18.LadBillNum AS 'Bill of Lading Number', 
+   SFI18.LadBillDat AS 'Date of Bill of Lading', 
+   SFI18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   SFI18.LadBillTyp AS 'Type of Bill of Lading', 
+   SFI18.DrawSReg AS 'Drawback - Suspension Regime', 
+   SFI18.NatureExp AS 'Nature of Export', 
+   SFI18.QultExpItm AS 'Quantity of Exported Items', 
+   SFI18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM SFI18 AS SFI18

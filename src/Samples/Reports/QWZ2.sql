@@ -1,0 +1,21 @@
+SELECT
+   QWZ2.Code AS 'Query Code', 
+   QWZ2.Numerator AS 'Internal Number', 
+   QWZ2.FileCode AS 'Table Name', 
+   QWZ2.FieldAlias AS 'Field Alias', 
+   QWZ2.Title AS 'Field Title', 
+   QWZ2.SortOrder AS 'Sort Order', 
+   QWZ2.SortType AS 'Sort Type', 
+   QWZ2.GroupBy AS 'Group By', 
+   QWZ2.AgregType AS 'Agreggate Function', 
+   QWZ2.CalcField AS 'Calculation Field', 
+   QWZ2.IsCalc AS 'Is Calculation', 
+   QWZ2.TmpAlias AS 'New Alias in Res. Table', 
+   QWZ2.TmpDescr AS 'New Description in Res. Table', 
+   QWZ2.Fld2Alias AS 'Field 2 Number', 
+   QWZ2.FileCode2 AS 'Field 2 Table Name', 
+   QWZ2.Agreg2Type AS 'Field 2 Aggregate Function', 
+   QWZ2.FldOp AS 'Formula Operation', 
+   QWZ2.FldCnstVal AS 'Field Const. Val.', 
+   QWZ2.Fld2CnsVal AS 'Field 2 Const. Val.'
+FROM QWZ2 AS QWZ2

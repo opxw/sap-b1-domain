@@ -1,0 +1,20 @@
+SELECT
+   DRF18.DocEntry AS 'Document Internal ID', 
+   DRF18.LineNum AS 'Row Number', 
+   DRF18.LogInstanc AS 'Log Instance', 
+   DRF18.ObjectType AS 'Object Type', 
+   DRF18.ExpDocType AS 'Type of Exportation Document', 
+   DRF18.ExpDeclNum AS 'Exportation Declaration Number', 
+   DRF18.ExpDeclDat AS 'Exportation Declaration Date', 
+   DRF18.ExpNature AS 'Nature of Exportation', 
+   DRF18.ExpRegNum AS 'Number of Exportation Registry', 
+   DRF18.ExpRegDate AS 'Date of Exportation Registry', 
+   DRF18.LadBillNum AS 'Bill of Lading Number', 
+   DRF18.LadBillDat AS 'Date of Bill of Lading', 
+   DRF18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   DRF18.LadBillTyp AS 'Type of Bill of Lading', 
+   DRF18.DrawSReg AS 'Drawback - Suspension Regime', 
+   DRF18.NatureExp AS 'Nature of Export', 
+   DRF18.QultExpItm AS 'Quantity of Exported Items', 
+   DRF18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM DRF18 AS DRF18

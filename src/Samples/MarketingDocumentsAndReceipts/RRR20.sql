@@ -1,0 +1,22 @@
+SELECT
+   RRR20.DocEntry AS 'Document Internal ID', 
+   RRR20.ExpnsCode AS 'Freight Code', 
+   RRR20.TotalLC AS 'Total', 
+   RRR20.TotalFC AS 'Total (FC)', 
+   RRR20.TotalSC AS 'Total (SC)', 
+   RRR20.DistribM AS 'Distribution Method', 
+   RRR20.DrawnLC AS 'Drawn Total', 
+   RRR20.DrawnFC AS 'Drawn Total (FC)', 
+   RRR20.DrawnSC AS 'Drawn Total (SC)', 
+   RRR20.LineNum AS 'Line Number', 
+   RRR20.BaseAbsEnt AS 'Base Abs. Entry', 
+   RRR20.BaseType AS 'Base Document Type', 
+   RRR20.BaseRef AS 'Base Document Reference', 
+   RRR20.BaseLnNum AS 'Base Document Row No.', 
+   RRR20.LogInstanc AS 'Log Instance', 
+   RRR20.ObjectType AS 'Object Type', 
+   RRR20.FixCurr AS 'Fixation Currency', 
+   RRR20.AppliedLC AS 'Applied', 
+   RRR20.AppliedFC AS 'Applied (FC)', 
+   RRR20.AppliedSC AS 'Applied (SC)'
+FROM RRR20 AS RRR20

@@ -1,0 +1,22 @@
+SELECT
+   OGTM.AbsEntry AS 'Internal Number', 
+   OGTM.CreateDate AS 'Create Date', 
+   OGTM.GtsMapNum AS 'GTS Mapping No.', 
+   OGTM.InvMapEnty AS 'Link to Invoice Mapping ID', 
+   OGTM.GtsInvNum AS 'Link to GTS Invoice Object', 
+   OGTM.BpCode AS 'BP Code', 
+   OGTM.BpName AS 'BP Name', 
+   OGTM.BpTaxRegNo AS 'BP Tax Registration No.', 
+   OGTM.BpAddrTel AS 'BP Address and Telephone', 
+   OGTM.BpBankNum AS 'BP Bank Number', 
+   OGTM.Remark AS 'Remarks', 
+   OGTM.Checker AS 'Checker', 
+   OGTM.Payee AS 'Payee', 
+   OGTM.DocAmount AS 'Document Net Amount', 
+   OGTM.AmtAftDsct AS 'Amount After Discount', 
+   OGTM.TaxAmount AS 'Tax Amount', 
+   OGTM.GtsStatus AS 'GTS Status', 
+   OGTM.ExportDate AS 'Export Date', 
+   OGTM.VoidDate AS 'Void Date', 
+   OGTM.ImportDate AS 'Import Date'
+FROM OGTM AS OGTM

@@ -1,0 +1,22 @@
+SELECT
+   TCD1.AbsId AS 'Internal Number', 
+   TCD1.TcdId AS 'Tax Determination Code', 
+   TCD1.KeyFld_1 AS 'Key Fields 1', 
+   TCD1.KeyFld_2 AS 'Key Fields 2', 
+   TCD1.KeyFld_3 AS 'Key Fields 3', 
+   TCD1.Priority AS 'Priority', 
+   TCD1.Descr AS 'Description', 
+   TCD1.KeyFld_4 AS 'Key Fields 4', 
+   TCD1.UDFTable_1 AS 'UDF Table Name 1', 
+   TCD1.UDFAlias_1 AS 'UDF Field Alias 1', 
+   TCD1.UDFTable_2 AS 'UDF Table Name 2', 
+   TCD1.UDFAlias_2 AS 'UDF Field Alias 2', 
+   TCD1.UDFTable_3 AS 'UDF Table Name 3', 
+   TCD1.UDFAlias_3 AS 'UDF Field Alias 3', 
+   TCD1.UDFTable_4 AS 'UDF Table Name 4', 
+   TCD1.UDFAlias_4 AS 'UDF Field Alias 4', 
+   TCD1.KeyFld_5 AS 'Key Fields 5', 
+   TCD1.UDFTable_5 AS 'UDF Table Name 5', 
+   TCD1.UDFAlias_5 AS 'UDF Field Alias 5', 
+   TCD1.LegalText AS 'Legal Text'
+FROM TCD1 AS TCD1

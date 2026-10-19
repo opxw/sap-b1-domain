@@ -1,0 +1,20 @@
+SELECT
+   SIVL2.Transseq AS 'Transaction sequence', 
+   SIVL2.MessageID AS 'Message ID', 
+   SIVL2.LineID AS 'Line ID', 
+   SIVL2.POLine AS 'Line in Production Order', 
+   SIVL2.ItemType AS 'Item Type', 
+   SIVL2.ItemCode AS 'Item No.', 
+   SIVL2.LocType AS 'Location Type', 
+   SIVL2.LocCode AS 'Location Code', 
+   SIVL2.LayerTSeq AS 'FIFO Layer Transaction Sequence', 
+   SIVL2.LayerId AS 'Layer ID', 
+   SIVL2.Quantity AS 'Quantity', 
+   SIVL2.TotalLC AS 'Inventory Total LC', 
+   SIVL2.BaseAbsEnt AS 'Abs. Entry of Base Doc.', 
+   SIVL2.BaseType AS 'Base Transaction Type', 
+   SIVL2.BaseLine AS 'Base Line Number', 
+   SIVL2.StgSeqNum AS 'Stage Sequence Number', 
+   SIVL2.StgEntry AS 'Stage Entry', 
+   SIVL2.StgDesc AS 'Stage Description'
+FROM SIVL2 AS SIVL2

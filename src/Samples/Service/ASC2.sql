@@ -1,0 +1,21 @@
+SELECT
+   ASC2.SrcvCallID AS 'Service Call No. - History', 
+   ASC2.Line AS 'Row - History', 
+   ASC2.ItemCode AS 'Item No. - History', 
+   ASC2.ItemName AS 'Item Description - History', 
+   ASC2.TransToTec AS 'Transfer to Technician - History', 
+   ASC2.Delivered AS 'Delivered - History', 
+   ASC2.RetFromTec AS 'Returned from Technician - History', 
+   ASC2.Returned AS 'Returned - History', 
+   ASC2.Bill AS 'Bill - History', 
+   ASC2.QtyToBill AS 'Quantity to Bill - History', 
+   ASC2.QtyToInv AS 'Invoiced Qty - History', 
+   ASC2.ObjectType AS 'Object Type - History', 
+   ASC2.LogInstanc AS 'Log Instance - History', 
+   ASC2.UserSign AS 'User Signature - History', 
+   ASC2.CreateDate AS 'Creation Date - History', 
+   ASC2.UserSign2 AS 'User Signature 2 - History', 
+   ASC2.UpdateDate AS 'Date of Update - History', 
+   ASC2.VisOrder AS 'Visual Order', 
+   ASC2.EncryptIV AS 'Encrypt IV'
+FROM ASC2 AS ASC2

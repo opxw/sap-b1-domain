@@ -1,0 +1,20 @@
+SELECT
+   QUT18.DocEntry AS 'Document Internal ID', 
+   QUT18.LineNum AS 'Row Number', 
+   QUT18.LogInstanc AS 'Log Instance', 
+   QUT18.ObjectType AS 'Object Type', 
+   QUT18.ExpDocType AS 'Type of Exportation Document', 
+   QUT18.ExpDeclNum AS 'Exportation Declaration Number', 
+   QUT18.ExpDeclDat AS 'Exportation Declaration Date', 
+   QUT18.ExpNature AS 'Nature of Exportation', 
+   QUT18.ExpRegNum AS 'Number of Exportation Registry', 
+   QUT18.ExpRegDate AS 'Date of Exportation Registry', 
+   QUT18.LadBillNum AS 'Bill of Lading Number', 
+   QUT18.LadBillDat AS 'Date of Bill of Lading', 
+   QUT18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   QUT18.LadBillTyp AS 'Type of Bill of Lading', 
+   QUT18.DrawSReg AS 'Drawback - Suspension Regime', 
+   QUT18.NatureExp AS 'Nature of Export', 
+   QUT18.QultExpItm AS 'Quantity of Exported Items', 
+   QUT18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM QUT18 AS QUT18

@@ -1,0 +1,23 @@
+SELECT
+   CUFD.TableID AS 'Table', 
+   CUFD.FieldID AS 'Field', 
+   CUFD.AliasID AS 'Title', 
+   CUFD.Descr AS 'Description', 
+   CUFD.TypeID AS 'Type', 
+   CUFD.EditType AS 'Edit Type', 
+   CUFD.SizeID AS 'Size', 
+   CUFD.EditSize AS 'Edit Size', 
+   CUFD.Dflt AS 'Default', 
+   CUFD.NotNull AS 'Required Entry Field', 
+   CUFD.IndexID AS 'Create Index', 
+   CUFD.RTable AS 'Linked Table', 
+   CUFD.RField AS 'Linked Field', 
+   CUFD.Action AS 'Action', 
+   CUFD.Sys AS 'System Defined?', 
+   CUFD.DfltDate AS 'Default Date', 
+   CUFD.RelUDO AS 'Related UDO', 
+   CUFD.ValidRule AS 'Validation Rule', 
+   CUFD.RelSO AS 'Related System Object', 
+   CUFD.RThrdPTab AS 'Related to Third Party Table', 
+   CUFD.RThrdPFld AS 'Related to Third Party Field'
+FROM CUFD AS CUFD

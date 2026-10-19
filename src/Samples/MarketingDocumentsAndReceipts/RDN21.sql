@@ -1,0 +1,23 @@
+SELECT
+   RDN21.DocEntry AS 'Internal Number', 
+   RDN21.ObjectType AS 'Object Type', 
+   RDN21.LogInstanc AS 'Log Instance', 
+   RDN21.RefType AS 'Reference Types', 
+   RDN21.LineNum AS 'Line Number', 
+   RDN21.RefDocEntr AS 'Referenced Internal Number', 
+   RDN21.RefDocNum AS 'Referenced Document Number', 
+   RDN21.ExtDocNum AS 'External Referenced Document Number', 
+   RDN21.RefObjType AS 'Referenced Object Type', 
+   RDN21.AccessKey AS 'Access Key', 
+   RDN21.IssueDate AS 'Date of Issue', 
+   RDN21.IssuerCNPJ AS 'Issuer CNPJ', 
+   RDN21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   RDN21.Model AS 'Fiscal Document Model', 
+   RDN21.Series AS 'Fiscal Document Series', 
+   RDN21.Number AS 'Fiscal Document Number', 
+   RDN21.RefAccKey AS 'Referenced CT-e Access Key', 
+   RDN21.RefAmount AS 'Referenced Amount', 
+   RDN21.SubSeries AS 'Fiscal Document Subseries', 
+   RDN21.Remark AS 'Remarks', 
+   RDN21.LinkRefTyp AS 'Link Reference Type'
+FROM RDN21 AS RDN21

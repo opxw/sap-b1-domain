@@ -1,0 +1,20 @@
+SELECT
+   CSI18.DocEntry AS 'Document Internal ID', 
+   CSI18.LineNum AS 'Row Number', 
+   CSI18.LogInstanc AS 'Log Instance', 
+   CSI18.ObjectType AS 'Object Type', 
+   CSI18.ExpDocType AS 'Type of Exportation Document', 
+   CSI18.ExpDeclNum AS 'Exportation Declaration Number', 
+   CSI18.ExpDeclDat AS 'Exportation Declaration Date', 
+   CSI18.ExpNature AS 'Nature of Exportation', 
+   CSI18.ExpRegNum AS 'Number of Exportation Registry', 
+   CSI18.ExpRegDate AS 'Date of Exportation Registry', 
+   CSI18.LadBillNum AS 'Bill of Lading Number', 
+   CSI18.LadBillDat AS 'Date of Bill of Lading', 
+   CSI18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   CSI18.LadBillTyp AS 'Type of Bill of Lading', 
+   CSI18.DrawSReg AS 'Drawback - Suspension Regime', 
+   CSI18.NatureExp AS 'Nature of Export', 
+   CSI18.QultExpItm AS 'Quantity of Exported Items', 
+   CSI18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM CSI18 AS CSI18

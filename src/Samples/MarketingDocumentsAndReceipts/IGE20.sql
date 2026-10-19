@@ -1,0 +1,22 @@
+SELECT
+   IGE20.DocEntry AS 'Document Internal ID', 
+   IGE20.ExpnsCode AS 'Freight Code', 
+   IGE20.TotalLC AS 'Total', 
+   IGE20.TotalFC AS 'Total (FC)', 
+   IGE20.TotalSC AS 'Total (SC)', 
+   IGE20.DistribM AS 'Distribution Method', 
+   IGE20.DrawnLC AS 'Drawn Total', 
+   IGE20.DrawnFC AS 'Drawn Total (FC)', 
+   IGE20.DrawnSC AS 'Drawn Total (SC)', 
+   IGE20.LineNum AS 'Line Number', 
+   IGE20.BaseAbsEnt AS 'Base Abs. Entry', 
+   IGE20.BaseType AS 'Base Document Type', 
+   IGE20.BaseRef AS 'Base Document Reference', 
+   IGE20.BaseLnNum AS 'Base Document Row No.', 
+   IGE20.LogInstanc AS 'Log Instance', 
+   IGE20.ObjectType AS 'Object Type', 
+   IGE20.FixCurr AS 'Fixation Currency', 
+   IGE20.AppliedLC AS 'Applied', 
+   IGE20.AppliedFC AS 'Applied (FC)', 
+   IGE20.AppliedSC AS 'Applied (SC)'
+FROM IGE20 AS IGE20

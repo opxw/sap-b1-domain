@@ -1,0 +1,23 @@
+SELECT
+   AIT8.ItemCode AS 'Item No.', 
+   AIT8.PeriodCat AS 'Period Category', 
+   AIT8.DprArea AS 'Depreciation Area', 
+   AIT8.APC AS 'APC', 
+   AIT8.APCHist AS 'Historical APC', 
+   AIT8.Quantity AS 'Asset Quantity', 
+   AIT8.OrDpAcc AS 'Accumulated Ordinary Depr.', 
+   AIT8.UnDpAcc AS 'Accumulated Unplanned Depr.', 
+   AIT8.SpDpKey1 AS 'Special Depreciation 01', 
+   AIT8.SpDpAcc1 AS 'Accumulated Special Depr. 01', 
+   AIT8.SpDpKey2 AS 'Special Depreciation 02', 
+   AIT8.SpDpAcc2 AS 'Accumulated Special Depr. 02', 
+   AIT8.SpDpKey3 AS 'Special Depreciation 03', 
+   AIT8.SpDpAcc3 AS 'Accumulated Special Depr. 03', 
+   AIT8.LogInstanc AS 'Log Instance', 
+   AIT8.ObjType AS 'Object', 
+   AIT8.SalvageVal AS 'Salvage Value', 
+   AIT8.OrDpAcc1 AS 'Ordinary Depr. Accumulation 01', 
+   AIT8.WriteUpAcc AS 'Accumulated Write-Up', 
+   AIT8.IsMaSalVal AS 'Manually Changed Salvage Value', 
+   AIT8.AppreAcc AS 'Accumulated Appreciation'
+FROM AIT8 AS AIT8

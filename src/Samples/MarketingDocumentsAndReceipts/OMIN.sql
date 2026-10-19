@@ -1,0 +1,20 @@
+SELECT
+   OMIN.Entry AS 'Internal Number', 
+   OMIN.Number AS 'Monthly Invoice Number', 
+   OMIN.Date AS 'Monthly Invoice Issue Date', 
+   OMIN.BPCode AS 'BP Code of Monthly Invoice', 
+   OMIN.BPName AS 'BP Name of Monthly Invoice', 
+   OMIN.Currency AS 'Currency of Monthly Invoice', 
+   OMIN.LastBilled AS 'Last Billed', 
+   OMIN.Paid AS 'Paid in the Period', 
+   OMIN.CarryForw AS 'Carry Balance Forward', 
+   OMIN.CurAmount AS 'Current Amount', 
+   OMIN.BillAmount AS 'Billing Amount', 
+   OMIN.OBPaid AS 'OB Paid in This Period', 
+   OMIN.OBLstJENum AS 'Last JE # for OB at Currnt Dte', 
+   OMIN.Predeces AS 'Former Monthly Invoice Number', 
+   OMIN.Successor AS 'Latter Monthly Invoice Number', 
+   OMIN.Series AS 'Series', 
+   OMIN.Cancelled AS 'is Canceled', 
+   OMIN.Address AS 'Bill to'
+FROM OMIN AS OMIN

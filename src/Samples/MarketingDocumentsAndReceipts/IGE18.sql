@@ -1,0 +1,20 @@
+SELECT
+   IGE18.DocEntry AS 'Document Internal ID', 
+   IGE18.LineNum AS 'Row Number', 
+   IGE18.LogInstanc AS 'Log Instance', 
+   IGE18.ObjectType AS 'Object Type', 
+   IGE18.ExpDocType AS 'Type of Exportation Document', 
+   IGE18.ExpDeclNum AS 'Exportation Declaration Number', 
+   IGE18.ExpDeclDat AS 'Exportation Declaration Date', 
+   IGE18.ExpNature AS 'Nature of Exportation', 
+   IGE18.ExpRegNum AS 'Number of Exportation Registry', 
+   IGE18.ExpRegDate AS 'Date of Exportation Registry', 
+   IGE18.LadBillNum AS 'Bill of Lading Number', 
+   IGE18.LadBillDat AS 'Date of Bill of Lading', 
+   IGE18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   IGE18.LadBillTyp AS 'Type of Bill of Lading', 
+   IGE18.DrawSReg AS 'Drawback - Suspension Regime', 
+   IGE18.NatureExp AS 'Nature of Export', 
+   IGE18.QultExpItm AS 'Quantity of Exported Items', 
+   IGE18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM IGE18 AS IGE18

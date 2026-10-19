@@ -1,0 +1,21 @@
+SELECT
+   ASTC.Code AS 'Code', 
+   ASTC.Name AS 'Name', 
+   ASTC.Rate AS 'Rate', 
+   ASTC.Freight AS 'Freight', 
+   ASTC.UserSign AS 'User Signature', 
+   ASTC.ValidForAR AS 'Valid for A/R', 
+   ASTC.ValidForAP AS 'Valid for A/P', 
+   ASTC.TfcId AS 'Formula Combination ID', 
+   ASTC.Lock AS 'Inactive', 
+   ASTC.TaxIcms AS 'Taxation For ICMS', 
+   ASTC.IsItmLevel AS 'Single Item Level Tax', 
+   ASTC.CfopIn AS 'CFOP Incoming Code', 
+   ASTC.CfopOut AS 'CFOP Outgoing Code', 
+   ASTC.LogInstanc AS 'Log Instance', 
+   ASTC.UserSign2 AS 'Updating User', 
+   ASTC.UpdateDate AS 'Update Date', 
+   ASTC.FADebit AS 'FA Debit', 
+   ASTC.IsSystem AS 'Is System Tax Code', 
+   ASTC.VatExempt AS 'Apply VAT Exemption'
+FROM ASTC AS ASTC

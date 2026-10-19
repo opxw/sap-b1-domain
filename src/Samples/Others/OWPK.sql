@@ -1,0 +1,21 @@
+SELECT
+   OWPK.AbsEntry AS 'Internal Key', 
+   OWPK.PackagCode AS 'Package Code', 
+   OWPK.PackagName AS 'Package Name', 
+   OWPK.Note AS 'Package Description', 
+   OWPK.Content AS 'Package Content', 
+   OWPK.Author AS 'Creator', 
+   OWPK.Version AS 'Version', 
+   OWPK.CreateDate AS 'Create Date', 
+   OWPK.CreateTime AS 'Create Time', 
+   OWPK.IsSystem AS 'Is System', 
+   OWPK.PackagType AS 'Package Type', 
+   OWPK.ISIMDB AS 'IS IMDB', 
+   OWPK.StraType AS 'Strategy Type', 
+   OWPK.StraPara AS 'Strategy Parameters', 
+   OWPK.SourceType AS 'Query Source Type', 
+   OWPK.ViewName AS 'View's Name', 
+   OWPK.ViewCtg AS 'View's Catalog', 
+   OWPK.ViewSyn AS 'View's Synonym', 
+   OWPK.Viewid AS 'Query Number'
+FROM OWPK AS OWPK

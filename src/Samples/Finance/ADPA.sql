@@ -1,0 +1,22 @@
+SELECT
+   ADPA.Code AS 'Code', 
+   ADPA.Descr AS 'Description', 
+   ADPA.DirectDpr AS 'Direct Depreciation', 
+   ADPA.RetMeth AS 'Retirement Method', 
+   ADPA.AreaType AS 'Area Type', 
+   ADPA.DrvdArea AS 'Derived Area', 
+   ADPA.DataSource AS 'Data Source', 
+   ADPA.UserSign AS 'User Signature', 
+   ADPA.LogInstanc AS 'Log Instance', 
+   ADPA.CreateDate AS 'Creation Date', 
+   ADPA.UserSign2 AS 'Updating User', 
+   ADPA.UpdateDate AS 'Date of Update', 
+   ADPA.MainArea AS 'Main Booking Area', 
+   ADPA.CreditCtrl AS 'Tax Credit Control', 
+   ADPA.TaxType AS 'Tax Type', 
+   ADPA.DirRevPost AS 'Direct Revenue Posting', 
+   ADPA.SnapshotId AS 'Snapshot ID', 
+   ADPA.BpTaxCorr AS 'BP for Tax Correction', 
+   ADPA.ItmTaxCorr AS 'Item for Tax Correction', 
+   ADPA.UsgTaxCorr AS 'Usage for Tax Correction'
+FROM ADPA AS ADPA

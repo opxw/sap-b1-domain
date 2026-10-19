@@ -1,0 +1,23 @@
+SELECT
+   IGN21.DocEntry AS 'Internal Number', 
+   IGN21.ObjectType AS 'Object Type', 
+   IGN21.LogInstanc AS 'Log Instance', 
+   IGN21.RefType AS 'Reference Types', 
+   IGN21.LineNum AS 'Line Number', 
+   IGN21.RefDocEntr AS 'Referenced Internal Number', 
+   IGN21.RefDocNum AS 'Referenced Document Number', 
+   IGN21.ExtDocNum AS 'External Referenced Document Number', 
+   IGN21.RefObjType AS 'Referenced Object Type', 
+   IGN21.AccessKey AS 'Access Key', 
+   IGN21.IssueDate AS 'Date of Issue', 
+   IGN21.IssuerCNPJ AS 'Issuer CNPJ', 
+   IGN21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   IGN21.Model AS 'Fiscal Document Model', 
+   IGN21.Series AS 'Fiscal Document Series', 
+   IGN21.Number AS 'Fiscal Document Number', 
+   IGN21.RefAccKey AS 'Referenced CT-e Access Key', 
+   IGN21.RefAmount AS 'Referenced Amount', 
+   IGN21.SubSeries AS 'Fiscal Document Subseries', 
+   IGN21.Remark AS 'Remarks', 
+   IGN21.LinkRefTyp AS 'Link Reference Type'
+FROM IGN21 AS IGN21

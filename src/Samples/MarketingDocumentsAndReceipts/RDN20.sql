@@ -1,0 +1,22 @@
+SELECT
+   RDN20.DocEntry AS 'Document Internal ID', 
+   RDN20.ExpnsCode AS 'Freight Code', 
+   RDN20.TotalLC AS 'Total', 
+   RDN20.TotalFC AS 'Total (FC)', 
+   RDN20.TotalSC AS 'Total (SC)', 
+   RDN20.DistribM AS 'Distribution Method', 
+   RDN20.DrawnLC AS 'Drawn Total', 
+   RDN20.DrawnFC AS 'Drawn Total (FC)', 
+   RDN20.DrawnSC AS 'Drawn Total (SC)', 
+   RDN20.LineNum AS 'Line Number', 
+   RDN20.BaseAbsEnt AS 'Base Abs. Entry', 
+   RDN20.BaseType AS 'Base Document Type', 
+   RDN20.BaseRef AS 'Base Document Reference', 
+   RDN20.BaseLnNum AS 'Base Document Row No.', 
+   RDN20.LogInstanc AS 'Log Instance', 
+   RDN20.ObjectType AS 'Object Type', 
+   RDN20.FixCurr AS 'Fixation Currency', 
+   RDN20.AppliedLC AS 'Applied', 
+   RDN20.AppliedFC AS 'Applied (FC)', 
+   RDN20.AppliedSC AS 'Applied (SC)'
+FROM RDN20 AS RDN20

@@ -1,0 +1,22 @@
+SELECT
+   SFC20.DocEntry AS 'Document Internal ID', 
+   SFC20.ExpnsCode AS 'Freight Code', 
+   SFC20.TotalLC AS 'Total', 
+   SFC20.TotalFC AS 'Total (FC)', 
+   SFC20.TotalSC AS 'Total (SC)', 
+   SFC20.DistribM AS 'Distribution Method', 
+   SFC20.DrawnLC AS 'Drawn Total', 
+   SFC20.DrawnFC AS 'Drawn Total (FC)', 
+   SFC20.DrawnSC AS 'Drawn Total (SC)', 
+   SFC20.LineNum AS 'Line Number', 
+   SFC20.BaseAbsEnt AS 'Base Abs. Entry', 
+   SFC20.BaseType AS 'Base Document Type', 
+   SFC20.BaseRef AS 'Base Document Reference', 
+   SFC20.BaseLnNum AS 'Base Document Row No.', 
+   SFC20.LogInstanc AS 'Log Instance', 
+   SFC20.ObjectType AS 'Object Type', 
+   SFC20.FixCurr AS 'Fixation Currency', 
+   SFC20.AppliedLC AS 'Applied', 
+   SFC20.AppliedFC AS 'Applied (FC)', 
+   SFC20.AppliedSC AS 'Applied (SC)'
+FROM SFC20 AS SFC20

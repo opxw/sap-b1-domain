@@ -1,0 +1,22 @@
+SELECT
+   APM4.AbsEntry AS 'Internal Key', 
+   APM4.LineID AS 'Row No.', 
+   APM4.StageID AS 'Stage ID', 
+   APM4.TYP AS 'Document Type', 
+   APM4.DOCNUM AS 'Document Number', 
+   APM4.DocEntry AS 'Document Abs. Entry', 
+   APM4.DocDate AS 'Document Date', 
+   APM4.Total AS 'Total', 
+   APM4.LineNum AS 'Line Number', 
+   APM4.Status AS 'Line status', 
+   APM4.LogInstanc AS 'Log Instance', 
+   APM4.AmountCat AS 'Category to which we will apply the amount from Total', 
+   APM4.Categorize AS 'Category Open Amount/Invoiced A/R, A/P to which we will apply the amount from journal entry', 
+   APM4.Operation AS 'Operation which we will apply to the amount from the total', 
+   APM4.Chargeable AS 'Chargeable [Yes/No]', 
+   APM4.Charged AS 'Charged', 
+   APM4.ChargedQty AS 'Charged Quantity', 
+   APM4.DocType AS 'Document Type', 
+   APM4.EncryptIV AS 'Encrypt IV', 
+   APM4.PartTotal AS 'Partially Invoiced Total'
+FROM APM4 AS APM4

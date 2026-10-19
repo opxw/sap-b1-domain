@@ -1,0 +1,20 @@
+SELECT
+   MTH1V.MthAcctCod AS 'Account Code', 
+   MTH1V.IsInternal AS 'Reconciliation Type', 
+   MTH1V.MatchNum AS 'Reconciliation No.', 
+   MTH1V.TransID AS 'Transaction No.', 
+   MTH1V.Line_ID AS 'Row Number', 
+   MTH1V.RefDate AS 'Posting Date', 
+   MTH1V.DueDate AS 'Due Date', 
+   MTH1V.Ref1 AS 'Reference 1', 
+   MTH1V.Ref2 AS 'Reference 2', 
+   MTH1V.Ref3Line AS 'Reference 3', 
+   MTH1V.Debit AS 'Debit Amount', 
+   MTH1V.Credit AS 'Credit Amount', 
+   MTH1V.SYSDeb AS 'System Debit Amount', 
+   MTH1V.SYSCred AS 'System Credit Amount', 
+   MTH1V.FCDebit AS 'Foreign Debit Amount', 
+   MTH1V.FCCredit AS 'Foreign Credit Amount', 
+   MTH1V.Currency AS 'Currency', 
+   MTH1V.LineMemo AS 'Row Details'
+FROM MTH1V AS MTH1V

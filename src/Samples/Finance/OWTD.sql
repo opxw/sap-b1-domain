@@ -1,0 +1,21 @@
+SELECT
+   OWTD.AbsEntry AS 'Internal Number', 
+   OWTD.WTCode AS 'WTax Code', 
+   OWTD.WTName AS 'WTax Code Name', 
+   OWTD.Rate AS 'Rate', 
+   OWTD.EffecDate AS 'Effective From', 
+   OWTD.Inactive AS 'Inactive', 
+   OWTD.OffclCode AS 'Official Code', 
+   OWTD.Category AS 'Category', 
+   OWTD.BaseType AS 'Base Type', 
+   OWTD.WTTypeId AS 'Type', 
+   OWTD.BaseMin AS 'Min. Amount', 
+   OWTD.PrctBsAmnt AS '% Base Amount', 
+   OWTD.FmlId AS 'Formula ID', 
+   OWTD.Account AS 'Account', 
+   OWTD.SlScProgr AS 'Sliding Scale Progressive Tax', 
+   OWTD.LogInstanc AS 'Log Instance', 
+   OWTD.UpdateDate AS 'Date of Update', 
+   OWTD.UserSign AS 'User Signature', 
+   OWTD.UserSign2 AS 'Updating User'
+FROM OWTD AS OWTD

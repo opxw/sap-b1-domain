@@ -1,0 +1,22 @@
+SELECT
+   ORTM.LineNum AS 'Reconciliation Key', 
+   ORTM.Rtmdate AS 'Posting Date', 
+   ORTM.AcctCode AS 'G/L Account/BP Code', 
+   ORTM.IsCard AS 'Card', 
+   ORTM.ActCurrncy AS 'Document Valuation Currency', 
+   ORTM.ActRate AS 'Document Revaluation Rate', 
+   ORTM.Balance AS 'Balance', 
+   ORTM.FrnBlnc AS 'FC Balance', 
+   ORTM.TransNum AS 'Transaction Number', 
+   ORTM.Valid AS 'Confirmed', 
+   ORTM.Delta AS 'Difference in LC', 
+   ORTM.IsSysCurr AS 'In System Currency', 
+   ORTM.StornoDate AS 'Reversal Date', 
+   ORTM.RevalRate AS 'Revaluation Rate', 
+   ORTM.UserSign AS 'User Signature', 
+   ORTM.BPLId AS 'Branch', 
+   ORTM.CntBlnc AS 'Converted Balance', 
+   ORTM.TransAmtSC AS 'Transaction Amount Total', 
+   ORTM.BalDueSC AS 'Balance Due Total', 
+   ORTM.SCAdjust AS 'SC Adjustment'
+FROM ORTM AS ORTM

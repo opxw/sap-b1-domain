@@ -1,0 +1,23 @@
+SELECT
+   PCH21.DocEntry AS 'Internal Number', 
+   PCH21.ObjectType AS 'Object Type', 
+   PCH21.LogInstanc AS 'Log Instance', 
+   PCH21.RefType AS 'Reference Types', 
+   PCH21.LineNum AS 'Line Number', 
+   PCH21.RefDocEntr AS 'Referenced Internal Number', 
+   PCH21.RefDocNum AS 'Referenced Document Number', 
+   PCH21.ExtDocNum AS 'External Referenced Document Number', 
+   PCH21.RefObjType AS 'Referenced Object Type', 
+   PCH21.AccessKey AS 'Access Key', 
+   PCH21.IssueDate AS 'Date of Issue', 
+   PCH21.IssuerCNPJ AS 'Issuer CNPJ', 
+   PCH21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   PCH21.Model AS 'Fiscal Document Model', 
+   PCH21.Series AS 'Fiscal Document Series', 
+   PCH21.Number AS 'Fiscal Document Number', 
+   PCH21.RefAccKey AS 'Referenced CT-e Access Key', 
+   PCH21.RefAmount AS 'Referenced Amount', 
+   PCH21.SubSeries AS 'Fiscal Document Subseries', 
+   PCH21.Remark AS 'Remarks', 
+   PCH21.LinkRefTyp AS 'Link Reference Type'
+FROM PCH21 AS PCH21

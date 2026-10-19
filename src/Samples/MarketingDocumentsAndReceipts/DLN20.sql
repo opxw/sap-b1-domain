@@ -1,0 +1,22 @@
+SELECT
+   DLN20.DocEntry AS 'Document Internal ID', 
+   DLN20.ExpnsCode AS 'Freight Code', 
+   DLN20.TotalLC AS 'Total', 
+   DLN20.TotalFC AS 'Total (FC)', 
+   DLN20.TotalSC AS 'Total (SC)', 
+   DLN20.DistribM AS 'Distribution Method', 
+   DLN20.DrawnLC AS 'Drawn Total', 
+   DLN20.DrawnFC AS 'Drawn Total (FC)', 
+   DLN20.DrawnSC AS 'Drawn Total (SC)', 
+   DLN20.LineNum AS 'Line Number', 
+   DLN20.BaseAbsEnt AS 'Base Abs. Entry', 
+   DLN20.BaseType AS 'Base Document Type', 
+   DLN20.BaseRef AS 'Base Document Reference', 
+   DLN20.BaseLnNum AS 'Base Document Row No.', 
+   DLN20.LogInstanc AS 'Log Instance', 
+   DLN20.ObjectType AS 'Object Type', 
+   DLN20.FixCurr AS 'Fixation Currency', 
+   DLN20.AppliedLC AS 'Applied', 
+   DLN20.AppliedFC AS 'Applied (FC)', 
+   DLN20.AppliedSC AS 'Applied (SC)'
+FROM DLN20 AS DLN20

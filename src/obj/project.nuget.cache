@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "K2ByRdP5X/I=",
+  "success": true,
+  "projectFilePath": "D:\\projects\\git\\sap-b1-api\\shared\\SapB1.Shared.Db\\SapB1.Shared.Db.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\linq2db\\6.3.0\\linq2db.6.3.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\mapster\\10.0.10\\mapster.10.0.10.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\mapster.async\\10.0.10\\mapster.async.10.0.10.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\mapster.core\\10.0.10\\mapster.core.10.0.10.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.9\\microsoft.extensions.configuration.10.0.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.9\\microsoft.extensions.configuration.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\10.0.9\\microsoft.extensions.configuration.fileextensions.10.0.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.configuration.json\\10.0.9\\microsoft.extensions.configuration.json.10.0.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\10.0.9\\microsoft.extensions.configuration.usersecrets.10.0.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.9\\microsoft.extensions.fileproviders.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.9\\microsoft.extensions.fileproviders.physical.10.0.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.9\\microsoft.extensions.filesystemglobbing.10.0.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.9\\microsoft.extensions.primitives.10.0.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\opx.api.infrastructure\\1.0.3\\opx.api.infrastructure.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

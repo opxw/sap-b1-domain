@@ -1,0 +1,4 @@
+SELECT
+   USR8.UserId AS 'User ID', 
+   USR8.PTICode AS 'POI Code'
+FROM USR8 AS USR8

@@ -1,0 +1,20 @@
+SELECT
+   FORM.Created AS 'Creation date', 
+   FORM.Updated AS 'Update date', 
+   FORM.Name AS 'Form name', 
+   FORM.Num AS 'Form number', 
+   FORM.Type AS 'Form type', 
+   FORM.CloseBox AS 'Close box', 
+   FORM.DfltButton AS 'Default button', 
+   FORM._Top AS 'Top', 
+   FORM._Bottom AS 'Bottom', 
+   FORM._Left AS 'Left', 
+   FORM._Right AS 'Right', 
+   FORM.MaxUnique AS 'Max Unique', 
+   FORM.RobjCode AS 'ImpExp Obj Code', 
+   FORM.HelpCntxt AS 'Help Context', 
+   FORM.UsrSgnAttr AS 'User Sign For Attribs Change', 
+   FORM.ResCode AS 'Resource Code from RSBD', 
+   FORM.RevCode AS 'Revision Code', 
+   FORM.UseBoBind AS 'Use BO Binding'
+FROM FORM AS FORM

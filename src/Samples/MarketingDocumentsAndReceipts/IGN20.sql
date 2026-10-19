@@ -1,0 +1,22 @@
+SELECT
+   IGN20.DocEntry AS 'Document Internal ID', 
+   IGN20.ExpnsCode AS 'Freight Code', 
+   IGN20.TotalLC AS 'Total', 
+   IGN20.TotalFC AS 'Total (FC)', 
+   IGN20.TotalSC AS 'Total (SC)', 
+   IGN20.DistribM AS 'Distribution Method', 
+   IGN20.DrawnLC AS 'Drawn Total', 
+   IGN20.DrawnFC AS 'Drawn Total (FC)', 
+   IGN20.DrawnSC AS 'Drawn Total (SC)', 
+   IGN20.LineNum AS 'Line Number', 
+   IGN20.BaseAbsEnt AS 'Base Abs. Entry', 
+   IGN20.BaseType AS 'Base Document Type', 
+   IGN20.BaseRef AS 'Base Document Reference', 
+   IGN20.BaseLnNum AS 'Base Document Row No.', 
+   IGN20.LogInstanc AS 'Log Instance', 
+   IGN20.ObjectType AS 'Object Type', 
+   IGN20.FixCurr AS 'Fixation Currency', 
+   IGN20.AppliedLC AS 'Applied', 
+   IGN20.AppliedFC AS 'Applied (FC)', 
+   IGN20.AppliedSC AS 'Applied (SC)'
+FROM IGN20 AS IGN20

@@ -1,0 +1,22 @@
+SELECT
+   QUT20.DocEntry AS 'Document Internal ID', 
+   QUT20.ExpnsCode AS 'Freight Code', 
+   QUT20.TotalLC AS 'Total', 
+   QUT20.TotalFC AS 'Total (FC)', 
+   QUT20.TotalSC AS 'Total (SC)', 
+   QUT20.DistribM AS 'Distribution Method', 
+   QUT20.DrawnLC AS 'Drawn Total', 
+   QUT20.DrawnFC AS 'Drawn Total (FC)', 
+   QUT20.DrawnSC AS 'Drawn Total (SC)', 
+   QUT20.LineNum AS 'Line Number', 
+   QUT20.BaseAbsEnt AS 'Base Abs. Entry', 
+   QUT20.BaseType AS 'Base Document Type', 
+   QUT20.BaseRef AS 'Base Document Reference', 
+   QUT20.BaseLnNum AS 'Base Document Row No.', 
+   QUT20.LogInstanc AS 'Log Instance', 
+   QUT20.ObjectType AS 'Object Type', 
+   QUT20.FixCurr AS 'Fixation Currency', 
+   QUT20.AppliedLC AS 'Applied', 
+   QUT20.AppliedFC AS 'Applied (FC)', 
+   QUT20.AppliedSC AS 'Applied (SC)'
+FROM QUT20 AS QUT20

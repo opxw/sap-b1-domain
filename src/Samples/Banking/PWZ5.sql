@@ -1,0 +1,22 @@
+SELECT
+   PWZ5.IdEntry AS 'ID Entry', 
+   PWZ5.InvID AS 'Inv ID', 
+   PWZ5.Amount AS 'Invoice Amount', 
+   PWZ5.CardCode AS 'Card Code', 
+   PWZ5.CardName AS 'Card Name', 
+   PWZ5.PostDate AS 'Posting Date', 
+   PWZ5.ErrDisc AS 'Error Discription', 
+   PWZ5.ErrorLine AS 'ErrorLine', 
+   PWZ5.WriteErr AS 'WriteErr', 
+   PWZ5.Object AS 'Object Type', 
+   PWZ5.InstlmntID AS 'Installment ID', 
+   PWZ5.invNum AS 'Invoice No.', 
+   PWZ5.Currency AS 'Currency', 
+   PWZ5.LineType AS 'Line Type', 
+   PWZ5.DueBal AS 'Balance Due', 
+   PWZ5.DueBalFC AS 'Balance Due (FC)', 
+   PWZ5.DueBalSys AS 'Balance Due (SC)', 
+   PWZ5.ValDate AS 'Due Date', 
+   PWZ5.BPLId AS 'Branch', 
+   PWZ5.DPPStatus AS 'Data Protection Status'
+FROM PWZ5 AS PWZ5

@@ -1,0 +1,21 @@
+SELECT
+   SOI3.WizardId AS 'Wizard ID', 
+   SOI3.SOINum AS 'Statement No.', 
+   SOI3.AgrNum AS 'Blanket Agreement No.', 
+   SOI3.AgrNo AS 'Blanket Agreement Entry', 
+   SOI3.CardCode AS 'Customer/Vendor Code', 
+   SOI3.CardName AS 'Customer/Vendor Name', 
+   SOI3.PayToCtry AS 'BP Pay-to Country/Region', 
+   SOI3.PmntNum AS 'Payment No.', 
+   SOI3.PmntEntry AS 'Payment Entry', 
+   SOI3.PmntType AS 'Payment Type', 
+   SOI3.PmntDate AS 'Payment Date', 
+   SOI3.ExcBasSum AS 'Sum of Excise Base Amount', 
+   SOI3.ExciseSum AS 'Sum of Excise Amount', 
+   SOI3.VatBaseSum AS 'Sum of VAT Base Amount', 
+   SOI3.VatSum AS 'Total of VAT', 
+   SOI3.RegNo AS 'Registration No.', 
+   SOI3.RegDate AS 'Registration Date', 
+   SOI3.ExecStat AS 'Execution Status', 
+   SOI3.BPLId AS 'Branch'
+FROM SOI3 AS SOI3

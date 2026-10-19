@@ -1,0 +1,23 @@
+SELECT
+   ITM8.ItemCode AS 'Item No.', 
+   ITM8.PeriodCat AS 'Period Category', 
+   ITM8.DprArea AS 'Depreciation Area', 
+   ITM8.APC AS 'APC', 
+   ITM8.APCHist AS 'Historical APC', 
+   ITM8.Quantity AS 'Asset Quantity', 
+   ITM8.OrDpAcc AS 'Accumulated Ordinary Depr.', 
+   ITM8.UnDpAcc AS 'Accumulated Unplanned Depr.', 
+   ITM8.SpDpKey1 AS 'Special Depreciation 01', 
+   ITM8.SpDpAcc1 AS 'Accumulated Special Depr. 01', 
+   ITM8.SpDpKey2 AS 'Special Depreciation 02', 
+   ITM8.SpDpAcc2 AS 'Accumulated Special Depr. 02', 
+   ITM8.SpDpKey3 AS 'Special Depreciation 03', 
+   ITM8.SpDpAcc3 AS 'Accumulated Special Depr. 03', 
+   ITM8.LogInstanc AS 'Log Instance', 
+   ITM8.ObjType AS 'Object', 
+   ITM8.SalvageVal AS 'Salvage Value', 
+   ITM8.OrDpAcc1 AS 'Ordinary Depr. Accumulation 01', 
+   ITM8.WriteUpAcc AS 'Accumulated Write-Up', 
+   ITM8.IsMaSalVal AS 'Manually Changed Salvage Value', 
+   ITM8.AppreAcc AS 'Accumulated Appreciation'
+FROM ITM8 AS ITM8

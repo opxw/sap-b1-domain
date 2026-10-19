@@ -1,0 +1,23 @@
+SELECT
+   CSI21.DocEntry AS 'Internal Number', 
+   CSI21.ObjectType AS 'Object Type', 
+   CSI21.LogInstanc AS 'Log Instance', 
+   CSI21.RefType AS 'Reference Types', 
+   CSI21.LineNum AS 'Line Number', 
+   CSI21.RefDocEntr AS 'Referenced Internal Number', 
+   CSI21.RefDocNum AS 'Referenced Document Number', 
+   CSI21.ExtDocNum AS 'External Referenced Document Number', 
+   CSI21.RefObjType AS 'Referenced Object Type', 
+   CSI21.AccessKey AS 'Access Key', 
+   CSI21.IssueDate AS 'Date of Issue', 
+   CSI21.IssuerCNPJ AS 'Issuer CNPJ', 
+   CSI21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   CSI21.Model AS 'Fiscal Document Model', 
+   CSI21.Series AS 'Fiscal Document Series', 
+   CSI21.Number AS 'Fiscal Document Number', 
+   CSI21.RefAccKey AS 'Referenced CT-e Access Key', 
+   CSI21.RefAmount AS 'Referenced Amount', 
+   CSI21.SubSeries AS 'Fiscal Document Subseries', 
+   CSI21.Remark AS 'Remarks', 
+   CSI21.LinkRefTyp AS 'Link Reference Type'
+FROM CSI21 AS CSI21

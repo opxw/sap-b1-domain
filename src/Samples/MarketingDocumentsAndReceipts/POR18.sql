@@ -1,0 +1,20 @@
+SELECT
+   POR18.DocEntry AS 'Document Internal ID', 
+   POR18.LineNum AS 'Row Number', 
+   POR18.LogInstanc AS 'Log Instance', 
+   POR18.ObjectType AS 'Object Type', 
+   POR18.ExpDocType AS 'Type of Exportation Document', 
+   POR18.ExpDeclNum AS 'Exportation Declaration Number', 
+   POR18.ExpDeclDat AS 'Exportation Declaration Date', 
+   POR18.ExpNature AS 'Nature of Exportation', 
+   POR18.ExpRegNum AS 'Number of Exportation Registry', 
+   POR18.ExpRegDate AS 'Date of Exportation Registry', 
+   POR18.LadBillNum AS 'Bill of Lading Number', 
+   POR18.LadBillDat AS 'Date of Bill of Lading', 
+   POR18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   POR18.LadBillTyp AS 'Type of Bill of Lading', 
+   POR18.DrawSReg AS 'Drawback - Suspension Regime', 
+   POR18.NatureExp AS 'Nature of Export', 
+   POR18.QultExpItm AS 'Quantity of Exported Items', 
+   POR18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM POR18 AS POR18

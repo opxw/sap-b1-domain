@@ -1,0 +1,21 @@
+SELECT
+   OSTC.Code AS 'Code', 
+   OSTC.Name AS 'Name', 
+   OSTC.Rate AS 'Rate', 
+   OSTC.Freight AS 'Freight', 
+   OSTC.UserSign AS 'User Signature', 
+   OSTC.ValidForAR AS 'Valid for A/R', 
+   OSTC.ValidForAP AS 'Valid for A/P', 
+   OSTC.TfcId AS 'Formula Combination ID', 
+   OSTC.Lock AS 'Inactive', 
+   OSTC.TaxIcms AS 'Taxation For ICMS', 
+   OSTC.IsItmLevel AS 'Single Item Level Tax', 
+   OSTC.CfopIn AS 'CFOP Incoming Code', 
+   OSTC.CfopOut AS 'CFOP Outgoing Code', 
+   OSTC.LogInstanc AS 'Log Instance', 
+   OSTC.UserSign2 AS 'Updating User', 
+   OSTC.UpdateDate AS 'Update Date', 
+   OSTC.FADebit AS 'FA Debit', 
+   OSTC.IsSystem AS 'Is System Tax Code', 
+   OSTC.VatExempt AS 'Apply VAT Exemption'
+FROM OSTC AS OSTC

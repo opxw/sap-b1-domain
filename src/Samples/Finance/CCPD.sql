@@ -1,0 +1,22 @@
+SELECT
+   CCPD.PerAbs AS 'Period Code', 
+   CCPD.Line_ID AS 'Row Number', 
+   CCPD.ProfitAct AS 'Account Code', 
+   CCPD.Ref1 AS 'Reference 1', 
+   CCPD.Ref2 AS 'Reference 2', 
+   CCPD.DueDate AS 'Due Date', 
+   CCPD.RefDate AS 'Posting Date', 
+   CCPD.TaxDate AS 'Document Date', 
+   CCPD.Memo AS 'Row Details', 
+   CCPD.MarkLine AS 'Select', 
+   CCPD.ActKeyLine AS 'Account Code', 
+   CCPD.LocBalLine AS 'Current Balance', 
+   CCPD.FcBalLine AS 'Balance (Account Currency)', 
+   CCPD.SysBalLine AS 'Balance (SC)', 
+   CCPD.ToPerAbs AS 'To Period Code', 
+   CCPD.CtrlAct AS 'Control Account', 
+   CCPD.PL_ACCOUNT AS 'P/L Account', 
+   CCPD.Ref1_l AS 'Reference 1 for line', 
+   CCPD.Ref2_l AS 'Reference 2 for line', 
+   CCPD.Ref3_l AS 'Reference 3 for line'
+FROM CCPD AS CCPD

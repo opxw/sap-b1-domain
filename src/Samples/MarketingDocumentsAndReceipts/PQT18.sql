@@ -1,0 +1,20 @@
+SELECT
+   PQT18.DocEntry AS 'Document Internal ID', 
+   PQT18.LineNum AS 'Row Number', 
+   PQT18.LogInstanc AS 'Log Instance', 
+   PQT18.ObjectType AS 'Object Type', 
+   PQT18.ExpDocType AS 'Type of Exportation Document', 
+   PQT18.ExpDeclNum AS 'Exportation Declaration Number', 
+   PQT18.ExpDeclDat AS 'Exportation Declaration Date', 
+   PQT18.ExpNature AS 'Nature of Exportation', 
+   PQT18.ExpRegNum AS 'Number of Exportation Registry', 
+   PQT18.ExpRegDate AS 'Date of Exportation Registry', 
+   PQT18.LadBillNum AS 'Bill of Lading Number', 
+   PQT18.LadBillDat AS 'Date of Bill of Lading', 
+   PQT18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   PQT18.LadBillTyp AS 'Type of Bill of Lading', 
+   PQT18.DrawSReg AS 'Drawback - Suspension Regime', 
+   PQT18.NatureExp AS 'Nature of Export', 
+   PQT18.QultExpItm AS 'Quantity of Exported Items', 
+   PQT18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM PQT18 AS PQT18

@@ -1,0 +1,20 @@
+SELECT
+   WTR18.DocEntry AS 'Document Internal ID', 
+   WTR18.LineNum AS 'Row Number', 
+   WTR18.LogInstanc AS 'Log Instance', 
+   WTR18.ObjectType AS 'Object Type', 
+   WTR18.ExpDocType AS 'Type of Exportation Document', 
+   WTR18.ExpDeclNum AS 'Exportation Declaration Number', 
+   WTR18.ExpDeclDat AS 'Exportation Declaration Date', 
+   WTR18.ExpNature AS 'Nature of Exportation', 
+   WTR18.ExpRegNum AS 'Number of Exportation Registry', 
+   WTR18.ExpRegDate AS 'Date of Exportation Registry', 
+   WTR18.LadBillNum AS 'Bill of Lading Number', 
+   WTR18.LadBillDat AS 'Date of Bill of Lading', 
+   WTR18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   WTR18.LadBillTyp AS 'Type of Bill of Lading', 
+   WTR18.DrawSReg AS 'Drawback - Suspension Regime', 
+   WTR18.NatureExp AS 'Nature of Export', 
+   WTR18.QultExpItm AS 'Quantity of Exported Items', 
+   WTR18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM WTR18 AS WTR18

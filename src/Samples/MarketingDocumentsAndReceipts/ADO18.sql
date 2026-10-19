@@ -1,0 +1,20 @@
+SELECT
+   ADO18.DocEntry AS 'Document Internal ID', 
+   ADO18.LineNum AS 'Row Number', 
+   ADO18.LogInstanc AS 'Log Instance', 
+   ADO18.ObjectType AS 'Object Type', 
+   ADO18.ExpDocType AS 'Type of Exportation Document', 
+   ADO18.ExpDeclNum AS 'Exportation Declaration Number', 
+   ADO18.ExpDeclDat AS 'Exportation Declaration Date', 
+   ADO18.ExpNature AS 'Nature of Exportation', 
+   ADO18.ExpRegNum AS 'Number of Exportation Registry', 
+   ADO18.ExpRegDate AS 'Date of Exportation Registry', 
+   ADO18.LadBillNum AS 'Bill of Lading Number', 
+   ADO18.LadBillDat AS 'Date of Bill of Lading', 
+   ADO18.MerchLeftD AS 'Date Merchandise Left Customs', 
+   ADO18.LadBillTyp AS 'Type of Bill of Lading', 
+   ADO18.DrawSReg AS 'Drawback - Suspension Regime', 
+   ADO18.NatureExp AS 'Nature of Export', 
+   ADO18.QultExpItm AS 'Quantity of Exported Items', 
+   ADO18.nSeqAdic AS 'Additional Item Sequential Number'
+FROM ADO18 AS ADO18

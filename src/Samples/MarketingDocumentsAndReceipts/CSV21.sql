@@ -1,0 +1,23 @@
+SELECT
+   CSV21.DocEntry AS 'Internal Number', 
+   CSV21.ObjectType AS 'Object Type', 
+   CSV21.LogInstanc AS 'Log Instance', 
+   CSV21.RefType AS 'Reference Types', 
+   CSV21.LineNum AS 'Line Number', 
+   CSV21.RefDocEntr AS 'Referenced Internal Number', 
+   CSV21.RefDocNum AS 'Referenced Document Number', 
+   CSV21.ExtDocNum AS 'External Referenced Document Number', 
+   CSV21.RefObjType AS 'Referenced Object Type', 
+   CSV21.AccessKey AS 'Access Key', 
+   CSV21.IssueDate AS 'Date of Issue', 
+   CSV21.IssuerCNPJ AS 'Issuer CNPJ', 
+   CSV21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   CSV21.Model AS 'Fiscal Document Model', 
+   CSV21.Series AS 'Fiscal Document Series', 
+   CSV21.Number AS 'Fiscal Document Number', 
+   CSV21.RefAccKey AS 'Referenced CT-e Access Key', 
+   CSV21.RefAmount AS 'Referenced Amount', 
+   CSV21.SubSeries AS 'Fiscal Document Subseries', 
+   CSV21.Remark AS 'Remarks', 
+   CSV21.LinkRefTyp AS 'Link Reference Type'
+FROM CSV21 AS CSV21

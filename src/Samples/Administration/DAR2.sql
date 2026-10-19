@@ -1,0 +1,22 @@
+SELECT
+   DAR2.ArcEntry AS 'Data Archive Entry', 
+   DAR2.Line_ID AS 'Row Number', 
+   DAR2.Approve AS 'Approve', 
+   DAR2.DocType AS 'Document Type', 
+   DAR2.DocNum AS 'Document Number', 
+   DAR2.DocAbs AS 'Document Abs Entry', 
+   DAR2.CardCode AS 'Customer/Vendor Code', 
+   DAR2.RefDate AS 'Posting Date', 
+   DAR2.DueDate AS 'Due Date', 
+   DAR2.TaxDate AS 'Document Date', 
+   DAR2.Total AS 'Total', 
+   DAR2.Action AS 'Action', 
+   DAR2.Remarks AS 'Remarks', 
+   DAR2.KeySeg1 AS 'Key Segment 1', 
+   DAR2.KeySeg2 AS 'Key Segment 2', 
+   DAR2.KeySeg3 AS 'Key Segment 3', 
+   DAR2.KeySeg4 AS 'Key Segment 4', 
+   DAR2.KeySeg5 AS 'Key Segment 5', 
+   DAR2.KeySeg6 AS 'Key Segment 6', 
+   DAR2.ClusterId AS 'Cluster ID'
+FROM DAR2 AS DAR2

@@ -1,0 +1,23 @@
+SELECT
+   RDR21.DocEntry AS 'Internal Number', 
+   RDR21.ObjectType AS 'Object Type', 
+   RDR21.LogInstanc AS 'Log Instance', 
+   RDR21.RefType AS 'Reference Types', 
+   RDR21.LineNum AS 'Line Number', 
+   RDR21.RefDocEntr AS 'Referenced Internal Number', 
+   RDR21.RefDocNum AS 'Referenced Document Number', 
+   RDR21.ExtDocNum AS 'External Referenced Document Number', 
+   RDR21.RefObjType AS 'Referenced Object Type', 
+   RDR21.AccessKey AS 'Access Key', 
+   RDR21.IssueDate AS 'Date of Issue', 
+   RDR21.IssuerCNPJ AS 'Issuer CNPJ', 
+   RDR21.IssuerCode AS 'Fiscal Document Issuer UF Code', 
+   RDR21.Model AS 'Fiscal Document Model', 
+   RDR21.Series AS 'Fiscal Document Series', 
+   RDR21.Number AS 'Fiscal Document Number', 
+   RDR21.RefAccKey AS 'Referenced CT-e Access Key', 
+   RDR21.RefAmount AS 'Referenced Amount', 
+   RDR21.SubSeries AS 'Fiscal Document Subseries', 
+   RDR21.Remark AS 'Remarks', 
+   RDR21.LinkRefTyp AS 'Link Reference Type'
+FROM RDR21 AS RDR21

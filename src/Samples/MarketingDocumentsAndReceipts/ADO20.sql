@@ -1,0 +1,22 @@
+SELECT
+   ADO20.DocEntry AS 'Document Internal ID', 
+   ADO20.ExpnsCode AS 'Freight Code', 
+   ADO20.TotalLC AS 'Total', 
+   ADO20.TotalFC AS 'Total (FC)', 
+   ADO20.TotalSC AS 'Total (SC)', 
+   ADO20.DistribM AS 'Distribution Method', 
+   ADO20.DrawnLC AS 'Drawn Total', 
+   ADO20.DrawnFC AS 'Drawn Total (FC)', 
+   ADO20.DrawnSC AS 'Drawn Total (SC)', 
+   ADO20.LineNum AS 'Line Number', 
+   ADO20.BaseAbsEnt AS 'Base Abs. Entry', 
+   ADO20.BaseType AS 'Base Document Type', 
+   ADO20.BaseRef AS 'Base Document Reference', 
+   ADO20.BaseLnNum AS 'Base Document Row No.', 
+   ADO20.LogInstanc AS 'Log Instance', 
+   ADO20.ObjectType AS 'Object Type', 
+   ADO20.FixCurr AS 'Fixation Currency', 
+   ADO20.AppliedLC AS 'Applied', 
+   ADO20.AppliedFC AS 'Applied (FC)', 
+   ADO20.AppliedSC AS 'Applied (SC)'
+FROM ADO20 AS ADO20

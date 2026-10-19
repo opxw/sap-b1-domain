@@ -1,0 +1,3 @@
+SELECT
+   EOY1.UdoCode AS 'UDO Code'
+FROM EOY1 AS EOY1

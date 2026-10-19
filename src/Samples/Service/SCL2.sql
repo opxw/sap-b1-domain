@@ -1,0 +1,21 @@
+SELECT
+   SCL2.SrcvCallID AS 'Service Call No.', 
+   SCL2.Line AS 'Row', 
+   SCL2.ItemCode AS 'Item No.', 
+   SCL2.ItemName AS 'Item Description', 
+   SCL2.TransToTec AS 'Transfer to Technican', 
+   SCL2.Delivered AS 'Delivered', 
+   SCL2.RetFromTec AS 'Returned from Technician', 
+   SCL2.Returned AS 'Returned', 
+   SCL2.Bill AS 'Bill', 
+   SCL2.QtyToBill AS 'Quantity to Bill', 
+   SCL2.QtyToInv AS 'Invoiced Qty', 
+   SCL2.ObjectType AS 'Object Type', 
+   SCL2.LogInstanc AS 'Log Instance', 
+   SCL2.UserSign AS 'User Signature', 
+   SCL2.CreateDate AS 'Creation Date', 
+   SCL2.UserSign2 AS 'User Signature 2', 
+   SCL2.UpdateDate AS 'Date of Update', 
+   SCL2.VisOrder AS 'Visual Order', 
+   SCL2.EncryptIV AS 'Encrypt IV'
+FROM SCL2 AS SCL2
