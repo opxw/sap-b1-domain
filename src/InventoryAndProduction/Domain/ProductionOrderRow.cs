@@ -9,7 +9,7 @@ namespace SapB1.Db.InventoryAndProduction;
 [Category("Inventory and Production")]
 [Description("Production Order")]
 [Table(Name = "OWOR")]
-public sealed class ProductionOrderRow
+public class ProductionOrderRow
 {
     /// <summary>Internal Number; SQL: DocEntry, source type: Int, size: 11.</summary>
     [Description("Internal Number")]

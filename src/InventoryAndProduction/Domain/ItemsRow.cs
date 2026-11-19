@@ -9,7 +9,7 @@ namespace SapB1.Db.InventoryAndProduction;
 [Category("Inventory and Production")]
 [Description("Items")]
 [Table(Name = "OITM")]
-public sealed class ItemsRow
+public class ItemsRow
 {
     /// <summary>Item No.; SQL: ItemCode, source type: nVarChar, size: 50.</summary>
     [Description("Item No.")]
