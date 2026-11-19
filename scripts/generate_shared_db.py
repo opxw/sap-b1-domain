@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE = Path('D:/projects/git/scrapped-biuan/biuan.com')
 OUTPUT = ROOT / 'src'
+EXTENSIBLE_TABLES = {'OITM', 'OWOR', 'OIGE', 'OIGN'}
 INDEX = 'index__u_37c15ca730dc1d40.html'
 CLR_TYPES = {
     'Num': 'decimal?',
@@ -196,12 +197,13 @@ def fields(source, code):
 
 def domain_code(category, table, columns):
     class_name = table['className']
+    class_modifier = '' if table['code'] in EXTENSIBLE_TABLES else 'sealed '
     lines = ['',
              '#nullable enable', 'using System.ComponentModel;', 'using LinqToDB.Mapping;',
              f'using SapB1.Db.{category}.Enums;', '', f'namespace SapB1.Db.{category};', '',
              f'/// <summary>{xml(table["description"])} ({table["code"]}); documented SQL 10.0 fields.</summary>',
              f'[Category({cs(table["category"])})]', f'[Description({cs(table["description"])})]',
-             f'[Table(Name = "{table["code"]}")]', f'public sealed class {class_name}', '{']
+             f'[Table(Name = "{table["code"]}")]', f'public {class_modifier}class {class_name}', '{']
     for field in columns:
         property_name = field['property']
         if property_name == class_name:

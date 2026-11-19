@@ -44,3 +44,7 @@ dotnet test tests/SapB1.Db.Tests/SapB1.Db.Tests.csproj -c Release
 ```
 
 Generator menghasilkan root `SapB1DbContext` dan context kategori. Jangan mengedit mapping tabel generated secara manual.
+
+### 2026-11-19
+
+Generator mengizinkan pewarisan model header Goods Issue (OIGE) dan Goods Receipt (OIGN) untuk mapping UDF di project konsumen, seperti model Item (OITM) dan Production Order (OWOR).

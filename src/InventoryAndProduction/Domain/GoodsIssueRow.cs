@@ -9,7 +9,7 @@ namespace SapB1.Db.InventoryAndProduction;
 [Category("Inventory and Production")]
 [Description("Goods Issue")]
 [Table(Name = "OIGE")]
-public sealed class GoodsIssueRow
+public class GoodsIssueRow
 {
     /// <summary>Numerator; SQL: DocEntry, source type: Int, size: 11.</summary>
     [Description("Numerator")]
