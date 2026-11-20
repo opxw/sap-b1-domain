@@ -1,0 +1,21 @@
+# .NET build and test output
+[Bb]in/
+[Oo]bj/
+TestResults/
+*.nupkg
+*.snupkg
+
+# Visual Studio local files
+.vs/
+*.user
+*.suo
+
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local environment settings
+.env
+.env.*
+!.env.example
